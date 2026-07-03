@@ -204,6 +204,15 @@ class Krea2AnimeStyleCLIPTextEncode:
                         "tooltip": "Positive image prompt written by the user.",
                     },
                 ),
+                "lora_trigger_text": (
+                    "STRING",
+                    {
+                        "multiline": True,
+                        "dynamicPrompts": True,
+                        "default": "",
+                        "tooltip": "LoRA trigger words prefixed directly to the final positive prompt. This text is not translated or refined.",
+                    },
+                ),
                 "negative_text": (
                     "STRING",
                     {
@@ -274,6 +283,7 @@ class Krea2AnimeStyleCLIPTextEncode:
         self,
         clip,
         positive_text: str,
+        lora_trigger_text: str,
         negative_text: str,
         style_selection: str,
         translate_prompts: bool,
@@ -291,8 +301,9 @@ class Krea2AnimeStyleCLIPTextEncode:
             refine_prompt,
             refinement_max_length,
         )
+        positive_with_triggers = _join_prompt([lora_trigger_text, positive_with_styles])
         return (
-            _encode_conditioning(clip, positive_with_styles),
+            _encode_conditioning(clip, positive_with_triggers),
             _encode_conditioning(clip, negative),
         )
 

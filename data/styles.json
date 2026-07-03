@@ -1,7 +1,7 @@
 {
   "source": "C:\\Users\\StarMoon\\Downloads\\anime_illustration_glossary.html",
   "stage_count": 8,
-  "style_count": 145,
+  "style_count": 152,
   "stages": [
     {
       "id": "form",
@@ -2807,6 +2807,139 @@
         "ダークファンタジー"
       ],
       "prompt_en": "Use Afrofuturist styling with African cultural patterns, futuristic technology, mythic and cosmic imagery, metallic ornament, regal silhouettes, and science-fiction worldbuilding."
+    },
+    {
+      "id": "mood-glitch-art",
+      "stage": "mood",
+      "ja": "グリッチアート",
+      "zh": "Glitch Art / 故障艺术",
+      "romaji": "guricchi aato",
+      "description_zh": "以数字错误、画面撕裂、色彩错位、压缩噪声和屏幕异常为核心的视觉风格。",
+      "cues": [
+        "数字错误",
+        "画面撕裂",
+        "色彩错位",
+        "压缩噪声"
+      ],
+      "related": [
+        "Analog Horror / 模拟恐怖",
+        "Y2K Futurism / 千禧未来风"
+      ],
+      "prompt_en": "Use glitch-art styling with visible digital errors, torn image bands, chromatic channel offsets, compression noise, corrupted edges, and deliberate screen-malfunction artifacts."
+    },
+    {
+      "id": "mood-datamosh",
+      "stage": "mood",
+      "ja": "データモッシュ",
+      "zh": "Datamosh / 数据损坏感",
+      "romaji": "deeta mosshu",
+      "description_zh": "模拟视频编码损坏后的运动残影、块状拖拽、帧间污染和压缩崩坏感。",
+      "cues": [
+        "视频编码损坏",
+        "运动残影",
+        "块状拖拽",
+        "帧间污染"
+      ],
+      "related": [
+        "Glitch Art / 故障艺术",
+        "Analog Horror / 模拟恐怖"
+      ],
+      "prompt_en": "Use datamosh styling with corrupted video compression, smeared motion blocks, inter-frame ghosting, dragged color fragments, macroblock trails, and broken codec artifacts."
+    },
+    {
+      "id": "mood-pixel-sorting",
+      "stage": "mood",
+      "ja": "ピクセルソート",
+      "zh": "Pixel Sorting / 像素排序",
+      "romaji": "pikuseru sooto",
+      "description_zh": "让像素按亮度或颜色被拉成长条，形成线性扫描、条纹拖尾和算法化破坏效果。",
+      "cues": [
+        "像素长条",
+        "扫描拖尾",
+        "亮度排序",
+        "算法破坏"
+      ],
+      "related": [
+        "Glitch Art / 故障艺术",
+        "限定パレット"
+      ],
+      "prompt_en": "Use pixel-sorting styling with rows or columns of pixels stretched by brightness or color, linear scan streaks, ordered digital trails, and algorithmic image corruption."
+    },
+    {
+      "id": "mood-blocky-displacement",
+      "stage": "mood",
+      "ja": "ブロック状ディスプレイスメント",
+      "zh": "Blocky Displacement / 块状位移",
+      "romaji": "burokkujou disupureisumento",
+      "description_zh": "画面局部以矩形块错位、跳格、压缩分区和粗粒度偏移形成破碎的数码结构。",
+      "cues": [
+        "矩形错位",
+        "跳格",
+        "粗粒度偏移",
+        "压缩分区"
+      ],
+      "related": [
+        "Datamosh / 数据损坏感",
+        "Pixel Sorting / 像素排序"
+      ],
+      "prompt_en": "Use blocky displacement styling with rectangular chunks shifted out of place, tiled offsets, coarse compression blocks, staggered image segments, and fractured digital structure."
+    },
+    {
+      "id": "mood-digital-dissolve",
+      "stage": "mood",
+      "ja": "デジタルディゾルブ",
+      "zh": "Digital Dissolve / 数字溶解",
+      "romaji": "dejitaru dizorubu",
+      "description_zh": "主体或背景像被数字化分解，出现像素颗粒、透明碎片、采样噪点和逐步消散的边缘。",
+      "cues": [
+        "像素颗粒",
+        "透明碎片",
+        "采样噪点",
+        "消散边缘"
+      ],
+      "related": [
+        "Glitch Art / 故障艺术",
+        "空気感"
+      ],
+      "prompt_en": "Use digital-dissolve styling where forms break into pixels, translucent fragments, sampled noise, fading edges, and a controlled data-like disintegration effect."
+    },
+    {
+      "id": "mood-blue-screen",
+      "stage": "mood",
+      "ja": "ブルースクリーン",
+      "zh": "Blue Screen / 系统崩溃界面",
+      "romaji": "buruu sukuriin",
+      "description_zh": "借用系统崩溃蓝屏、错误代码、单色界面和硬切换的计算机故障视觉语言。",
+      "cues": [
+        "蓝屏",
+        "错误代码",
+        "系统崩溃",
+        "单色界面"
+      ],
+      "related": [
+        "Cassette Futurism / 磁带未来主义",
+        "Analog Horror / 模拟恐怖"
+      ],
+      "prompt_en": "Use blue-screen crash-interface styling with saturated system blue, stark white error text, frozen computer-failure composition, diagnostic code motifs, and abrupt operating-system collapse aesthetics."
+    },
+    {
+      "id": "mood-surreal-minimalism",
+      "stage": "mood",
+      "ja": "シュルレアリスム・ミニマリズム",
+      "zh": "Surreal Minimalism / 超现实极简主义",
+      "romaji": "shururearisumu minimarizumu",
+      "description_zh": "以极少元素、大片留白、安静空间和不合逻辑的物体关系制造克制的超现实感。",
+      "cues": [
+        "大片留白",
+        "极少元素",
+        "不合逻辑关系",
+        "安静空间"
+      ],
+      "related": [
+        "Suprematism / 至上主义",
+        "Metaphysical Painting / 形而上绘画"
+      ],
+      "prompt_en": "Use surreal-minimalist styling with very few elements, spacious negative space, quiet impossible object relationships, restrained composition, and a calm dreamlike sense of unreality."
     }
   ]
 }

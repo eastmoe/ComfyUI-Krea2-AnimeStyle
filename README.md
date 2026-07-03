@@ -16,6 +16,7 @@ Inputs:
 
 - `clip`: the CLIP/text encoder used for final conditioning.
 - `positive_text`: user positive prompt.
+- `lora_trigger_text`: LoRA trigger words prefixed directly to the final positive prompt, without translation or refinement.
 - `negative_text`: user negative prompt.
 - `style_selection`: saved selected style IDs. In the ComfyUI frontend this is rendered as grouped checkboxes.
 - `translate_prompts`: when enabled, translates the user prompts to English through the connected CLIP-LLM before encoding.

@@ -11,6 +11,10 @@
           "label": "正向画面描述",
           "tooltip": "用户输入的正向提示词。"
         },
+        "lora_trigger_text": {
+          "label": "LoRA 触发词",
+          "tooltip": "会原样拼接到最终正向提示词最前面，不参与翻译或细化。"
+        },
         "negative_text": {
           "label": "反向画面描述",
           "tooltip": "用户输入的反向提示词。"
