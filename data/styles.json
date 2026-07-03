@@ -1,0 +1,1862 @@
+{
+  "source": "C:\\Users\\StarMoon\\Downloads\\anime_illustration_glossary.html",
+  "stage_count": 8,
+  "style_count": 95,
+  "stages": [
+    {
+      "id": "form",
+      "order": "01",
+      "name": "人物造型",
+      "short": "造型"
+    },
+    {
+      "id": "line",
+      "order": "02",
+      "name": "线条与线稿",
+      "short": "线稿"
+    },
+    {
+      "id": "coloring",
+      "order": "03",
+      "name": "上色与渲染",
+      "short": "上色"
+    },
+    {
+      "id": "light",
+      "order": "04",
+      "name": "光影结构",
+      "short": "光影"
+    },
+    {
+      "id": "palette",
+      "order": "05",
+      "name": "色彩系统",
+      "short": "色彩"
+    },
+    {
+      "id": "texture",
+      "order": "06",
+      "name": "质感与后期",
+      "short": "后期"
+    },
+    {
+      "id": "context",
+      "order": "07",
+      "name": "用途与媒介语境",
+      "short": "用途"
+    },
+    {
+      "id": "mood",
+      "order": "08",
+      "name": "审美气质",
+      "short": "气质"
+    }
+  ],
+  "styles": [
+    {
+      "id": "form-moe-kei",
+      "stage": "form",
+      "ja": "萌え系",
+      "zh": "萌系",
+      "romaji": "moe-kei",
+      "description_zh": "以可爱、亲近、低攻击性为核心的造型倾向。常见圆脸、大眼、鼻口简化、表情柔软。",
+      "cues": [
+        "圆形语言",
+        "大眼",
+        "鼻口简化",
+        "可爱感"
+      ],
+      "related": [
+        "美少女系",
+        "低頭身"
+      ],
+      "prompt_en": "A cute, approachable style built around soft expressions, rounded shapes, large eyes, and a low-aggression character presence."
+    },
+    {
+      "id": "form-bishoujo-kei",
+      "stage": "form",
+      "ja": "美少女系",
+      "zh": "美少女系",
+      "romaji": "bishoujo-kei",
+      "description_zh": "以精致、理想化的少女角色为中心，眼睛、发丝、服装细节通常较丰富。",
+      "cues": [
+        "精致五官",
+        "虹膜细节",
+        "发丝描写",
+        "轻小说感"
+      ],
+      "related": [
+        "ギャルゲ塗り",
+        "宝石目"
+      ],
+      "prompt_en": "A style centered on beautiful, idealized young female characters, often featuring large expressive eyes, delicate features, and a polished or dreamy look."
+    },
+    {
+      "id": "form-otome-muke",
+      "stage": "form",
+      "ja": "乙女向け",
+      "zh": "乙女向 / 少女向",
+      "romaji": "otome-muke",
+      "description_zh": "面向乙女或少女审美的角色表达，线条纤细，眼睫和氛围更梦幻或浪漫。",
+      "cues": [
+        "长睫毛",
+        "纤细线条",
+        "浪漫氛围",
+        "华丽眼形"
+      ],
+      "related": [
+        "少女漫画風",
+        "透明感"
+      ],
+      "prompt_en": "A romantic, delicate style aimed at otome or shoujo sensibilities, often using slender lines, elegant eyes, and a soft emotional atmosphere."
+    },
+    {
+      "id": "form-shounen-manga-fuu",
+      "stage": "form",
+      "ja": "少年漫画風",
+      "zh": "少年漫画风",
+      "romaji": "shounen manga-fuu",
+      "description_zh": "强调动态、力量、表情张力和清晰轮廓，常见夸张姿势与强节奏线条。",
+      "cues": [
+        "动态姿势",
+        "速度感",
+        "强表情",
+        "硬轮廓"
+      ],
+      "related": [
+        "太線",
+        "硬い影"
+      ],
+      "prompt_en": "A dynamic manga-influenced style that emphasizes action, strong expressions, bold silhouettes, and energetic visual rhythm."
+    },
+    {
+      "id": "form-seinen-manga-fuu",
+      "stage": "form",
+      "ja": "青年漫画風",
+      "zh": "青年漫画风",
+      "romaji": "seinen manga-fuu",
+      "description_zh": "比例和五官更接近写实，表情克制，阴影与结构更厚重。",
+      "cues": [
+        "写实比例",
+        "克制表情",
+        "骨相明显",
+        "低明度"
+      ],
+      "related": [
+        "厚塗り",
+        "低明度"
+      ],
+      "prompt_en": "A more mature manga style with relatively realistic proportions, restrained expressions, heavier structure, and stronger tonal weight."
+    },
+    {
+      "id": "form-deforume",
+      "stage": "form",
+      "ja": "デフォルメ",
+      "zh": "变形 / 夸张简化",
+      "romaji": "deforume",
+      "description_zh": "有意识地压缩或夸张身体、五官和动作，使角色更符号化、更易读。",
+      "cues": [
+        "夸张比例",
+        "简化形体",
+        "符号化",
+        "商品感"
+      ],
+      "related": [
+        "SDキャラ",
+        "低頭身"
+      ],
+      "prompt_en": "A stylized deformation approach that simplifies or exaggerates anatomy, facial features, and motion to make a character more iconic and readable."
+    },
+    {
+      "id": "form-sd-kyara",
+      "stage": "form",
+      "ja": "SDキャラ",
+      "zh": "Q版 / SD角色",
+      "romaji": "SD kyara",
+      "description_zh": "Super Deformed 的常见缩写，通常为大头小身体、2到4头身，表情符号化。",
+      "cues": [
+        "大头小身",
+        "2-4头身",
+        "圆润",
+        "表情夸张"
+      ],
+      "related": [
+        "デフォルメ",
+        "低頭身"
+      ],
+      "prompt_en": "A super-deformed character style with a large head, small body, simplified limbs, and highly symbolic facial expressions."
+    },
+    {
+      "id": "form-teitoushin",
+      "stage": "form",
+      "ja": "低頭身",
+      "zh": "低头身",
+      "romaji": "teitoushin",
+      "description_zh": "角色整体头身数较低，常用于可爱、轻松、游戏头像或周边化设计。",
+      "cues": [
+        "5头身以下常见",
+        "短腿",
+        "亲和",
+        "可爱"
+      ],
+      "related": [
+        "萌え系",
+        "SDキャラ"
+      ],
+      "prompt_en": "A low head-to-body proportion style that makes characters appear cute, compact, friendly, and suitable for icons or merchandise."
+    },
+    {
+      "id": "form-koutoushin",
+      "stage": "form",
+      "ja": "高頭身",
+      "zh": "高头身",
+      "romaji": "koutoushin",
+      "description_zh": "角色比例修长，腿部和躯干更拉长，常用于时装感、偶像感、手游立绘。",
+      "cues": [
+        "修长比例",
+        "腿长",
+        "成熟",
+        "舞台感"
+      ],
+      "related": [
+        "アイドル風",
+        "立ち絵"
+      ],
+      "prompt_en": "A tall-proportion character style with elongated legs and a more mature silhouette, often used for fashion, idol, or game character artwork."
+    },
+    {
+      "id": "form-yougao",
+      "stage": "form",
+      "ja": "幼顔",
+      "zh": "幼态脸",
+      "romaji": "yougao",
+      "description_zh": "脸部轮廓圆、下巴短、五官集中且鼻口小，呈现年轻或可爱的观感。",
+      "cues": [
+        "圆脸",
+        "短下巴",
+        "大眼距",
+        "小鼻口"
+      ],
+      "related": [
+        "萌え系",
+        "低頭身"
+      ],
+      "prompt_en": "A facial appearance that looks notably youthful or childlike, with soft, rounded contours, a small chin, and an innocent expression."
+    },
+    {
+      "id": "form-otonagao",
+      "stage": "form",
+      "ja": "大人顔",
+      "zh": "成熟脸",
+      "romaji": "otonagao",
+      "description_zh": "鼻梁、嘴唇、下颌和骨相更明确，眼睛相对收敛，气质更成熟。",
+      "cues": [
+        "下颌明确",
+        "鼻梁明显",
+        "眼睛较窄",
+        "骨相"
+      ],
+      "related": [
+        "青年漫画風",
+        "高頭身"
+      ],
+      "prompt_en": "A mature facial appearance with clearer bone structure, a more defined nose or jaw, and less exaggerated eye proportions."
+    },
+    {
+      "id": "form-tsurime",
+      "stage": "form",
+      "ja": "つり目",
+      "zh": "吊眼",
+      "romaji": "tsurime",
+      "description_zh": "眼尾上扬，常让角色显得锐利、傲气、强势或冷感。",
+      "cues": [
+        "眼尾上扬",
+        "锐利",
+        "强势",
+        "傲气"
+      ],
+      "related": [
+        "猫目",
+        "三白眼"
+      ],
+      "prompt_en": "An upturned eye shape that gives a character a sharp, confident, proud, or cool impression."
+    },
+    {
+      "id": "form-tareme",
+      "stage": "form",
+      "ja": "たれ目",
+      "zh": "垂眼",
+      "romaji": "tareme",
+      "description_zh": "眼尾下垂，常让角色显得温柔、困倦、无辜或慵懒。",
+      "cues": [
+        "眼尾下垂",
+        "温柔",
+        "无辜",
+        "慵懒"
+      ],
+      "related": [
+        "ジト目",
+        "幼顔"
+      ],
+      "prompt_en": "A downturned eye shape that makes a character feel gentle, sleepy, innocent, relaxed, or emotionally soft."
+    },
+    {
+      "id": "form-nekome",
+      "stage": "form",
+      "ja": "猫目",
+      "zh": "猫眼",
+      "romaji": "nekome",
+      "description_zh": "眼形狭长、眼尾翘，眼线或瞳孔有猫科动物般的锐感。",
+      "cues": [
+        "狭长眼形",
+        "翘眼尾",
+        "猫科感",
+        "魅惑"
+      ],
+      "related": [
+        "つり目",
+        "アイライン"
+      ],
+      "prompt_en": "A cat-like eye shape with a lifted outer corner and narrow, alluring sharpness, often used for sly or charming characters."
+    },
+    {
+      "id": "form-houseki-me",
+      "stage": "form",
+      "ja": "宝石目",
+      "zh": "宝石眼",
+      "romaji": "houseki-me",
+      "description_zh": "虹膜层次非常丰富，含渐变、星光、花纹和多点高光，像宝石一样闪。",
+      "cues": [
+        "虹膜渐变",
+        "多点高光",
+        "星光",
+        "精细眼睛"
+      ],
+      "related": [
+        "美少女系",
+        "ハイライト"
+      ],
+      "prompt_en": "An eye-rendering style with layered gradients, sparkles, patterns, and multiple highlights that make the iris look jewel-like."
+    },
+    {
+      "id": "form-jitome",
+      "stage": "form",
+      "ja": "ジト目",
+      "zh": "半睁眼 / 嫌弃眼",
+      "romaji": "jitome",
+      "description_zh": "眼皮压低、视线平直或冷淡，常用于吐槽、冷漠、困倦角色。",
+      "cues": [
+        "半睁",
+        "冷淡",
+        "吐槽感",
+        "眼皮压低"
+      ],
+      "related": [
+        "たれ目",
+        "三白眼"
+      ],
+      "prompt_en": "A half-lidded or flat-eyed expression that suggests boredom, sarcasm, tiredness, suspicion, or deadpan irritation."
+    },
+    {
+      "id": "form-sanpaku-gan",
+      "stage": "form",
+      "ja": "三白眼",
+      "zh": "三白眼",
+      "romaji": "sanpaku-gan",
+      "description_zh": "瞳孔周围三侧露出眼白，能制造危险、疲惫、阴郁或强压迫感。",
+      "cues": [
+        "眼白明显",
+        "压迫感",
+        "阴郁",
+        "危险感"
+      ],
+      "related": [
+        "つり目",
+        "病みかわいい"
+      ],
+      "prompt_en": "An eye type where white space is visible on three sides of the iris, creating an intense, tired, dangerous, or unsettling mood."
+    },
+    {
+      "id": "line-senga",
+      "stage": "line",
+      "ja": "線画",
+      "zh": "线稿",
+      "romaji": "senga",
+      "description_zh": "角色和物体的线条结构层，决定边界、结构、节奏和画面清晰度。",
+      "cues": [
+        "轮廓",
+        "结构",
+        "闭合度",
+        "线条节奏"
+      ],
+      "related": [
+        "清書線",
+        "線の強弱"
+      ],
+      "prompt_en": "The line-art layer that defines contours, structure, rhythm, and readability before or alongside color and shading."
+    },
+    {
+      "id": "line-seisho-sen",
+      "stage": "line",
+      "ja": "清書線",
+      "zh": "清稿线",
+      "romaji": "seisho-sen",
+      "description_zh": "整理后的干净线条，抖动少、边界清楚，适合动画塗り、立绘和Live2D拆分。",
+      "cues": [
+        "干净",
+        "闭合",
+        "可读性强",
+        "适合分层"
+      ],
+      "related": [
+        "アニメ塗り",
+        "Live2D用立ち絵"
+      ],
+      "prompt_en": "A clean finalized line style with stable, readable, often closed contours suitable for animation coloring, model sheets, and Live2D work."
+    },
+    {
+      "id": "line-futo-sen",
+      "stage": "line",
+      "ja": "太線",
+      "zh": "粗线",
+      "romaji": "futo-sen",
+      "description_zh": "外轮廓或主要轮廓较粗，使角色从背景中跳出，带动画或卡通感。",
+      "cues": [
+        "外轮廓强",
+        "卡通感",
+        "醒目",
+        "形状明确"
+      ],
+      "related": [
+        "少年漫画風",
+        "アニメ塗り"
+      ],
+      "prompt_en": "A thick-line style that strengthens silhouettes, separates the character from the background, and creates a bold cartoon or anime feel."
+    },
+    {
+      "id": "line-hoso-sen",
+      "stage": "line",
+      "ja": "細線",
+      "zh": "细线",
+      "romaji": "hoso-sen",
+      "description_zh": "线条纤细、轻盈，适合透明感、水彩感、少女向或轻小说封面。",
+      "cues": [
+        "轻盈",
+        "纤细",
+        "精致",
+        "柔和"
+      ],
+      "related": [
+        "透明感塗り",
+        "乙女向け"
+      ],
+      "prompt_en": "A fine-line style that feels light, delicate, precise, and well suited to transparent, watercolor, shoujo, or light-novel aesthetics."
+    },
+    {
+      "id": "line-sen-no-kyoujaku",
+      "stage": "line",
+      "ja": "線の強弱",
+      "zh": "线条粗细变化",
+      "romaji": "sen no kyoujaku",
+      "description_zh": "通过外粗内细、转折处加重等方式增强体积、空间和节奏。",
+      "cues": [
+        "外粗内细",
+        "转折加重",
+        "节奏",
+        "体积"
+      ],
+      "related": [
+        "線画",
+        "清書線"
+      ],
+      "prompt_en": "The controlled variation of line weight, such as thicker outer contours and lighter inner details, used to create volume and rhythm."
+    },
+    {
+      "id": "line-iro-toresu",
+      "stage": "line",
+      "ja": "色トレス",
+      "zh": "彩色线稿",
+      "romaji": "iro-toresu",
+      "description_zh": "将线稿从纯黑改为接近局部固有色的深色，使画面更柔和、更融合。",
+      "cues": [
+        "非黑线",
+        "局部同色",
+        "柔和",
+        "融合感"
+      ],
+      "related": [
+        "細線",
+        "透明感"
+      ],
+      "prompt_en": "A colored-line technique where black line art is replaced with darker local colors so the drawing feels softer and more integrated."
+    },
+    {
+      "id": "line-togire-sen",
+      "stage": "line",
+      "ja": "途切れ線",
+      "zh": "断线",
+      "romaji": "togire-sen",
+      "description_zh": "线条不完全闭合，保留呼吸感和手绘感，常用于轻盈或草图感画面。",
+      "cues": [
+        "不闭合",
+        "留白",
+        "手绘感",
+        "轻"
+      ],
+      "related": [
+        "ラフ線",
+        "水彩塗り"
+      ],
+      "prompt_en": "An outline style where lines are intentionally broken or sketchy rather than clean and continuous, giving the artwork a light, hand-drawn, and airy feel."
+    },
+    {
+      "id": "line-sen-nashi",
+      "stage": "line",
+      "ja": "線なし",
+      "zh": "无线稿 / 无主线",
+      "romaji": "sen-nashi",
+      "description_zh": "几乎不依靠线条，而用色块边缘、明暗和形状区分结构。",
+      "cues": [
+        "靠色块",
+        "线条弱",
+        "绘本感",
+        "厚涂感"
+      ],
+      "related": [
+        "厚塗り",
+        "ブラシ塗り"
+      ],
+      "prompt_en": "A lineless style where forms are separated mainly by color shapes, value contrast, and edges rather than visible outlines."
+    },
+    {
+      "id": "line-rafu-sen",
+      "stage": "line",
+      "ja": "ラフ線",
+      "zh": "草稿线",
+      "romaji": "rafu-sen",
+      "description_zh": "保留搜索线、多根线和毛边，呈现速写、草稿或概念设定的状态。",
+      "cues": [
+        "多根线",
+        "毛边",
+        "速度感",
+        "未清稿"
+      ],
+      "related": [
+        "設定画",
+        "途切れ線"
+      ],
+      "prompt_en": "A rough sketch-line style that preserves searching strokes, hairy edges, or multiple construction lines for a loose conceptual feel."
+    },
+    {
+      "id": "coloring-anime-nuri",
+      "stage": "coloring",
+      "ja": "アニメ塗り",
+      "zh": "动画上色",
+      "romaji": "anime-nuri",
+      "description_zh": "边界清晰、明暗层级少、色块明确，是动画感最强的上色方式之一。",
+      "cues": [
+        "硬边阴影",
+        "层级少",
+        "色块清楚",
+        "动画截图感"
+      ],
+      "related": [
+        "セル塗り",
+        "硬い影"
+      ],
+      "prompt_en": "A crisp anime-style coloring method with clear color regions, hard-edged shadows, limited value steps, and strong readability."
+    },
+    {
+      "id": "coloring-seru-nuri",
+      "stage": "coloring",
+      "ja": "セル塗り",
+      "zh": "赛璐璐上色",
+      "romaji": "seru-nuri",
+      "description_zh": "与动画塗り高度接近，强调清楚分区的固有色、阴影和高光。",
+      "cues": [
+        "清晰分区",
+        "硬边",
+        "少渐变",
+        "轮廓明确"
+      ],
+      "related": [
+        "アニメ塗り",
+        "平塗り"
+      ],
+      "prompt_en": "A cel-shading approach with flat base colors, clearly separated shadow blocks, and minimal blending for a traditional animation-like finish."
+    },
+    {
+      "id": "coloring-hira-nuri",
+      "stage": "coloring",
+      "ja": "平塗り",
+      "zh": "平涂",
+      "romaji": "hira-nuri",
+      "description_zh": "只铺固有色或非常少的明暗，适合设定图、配色稿和草图展示。",
+      "cues": [
+        "固有色",
+        "少阴影",
+        "配色稿",
+        "简洁"
+      ],
+      "related": [
+        "設定画",
+        "セル塗り"
+      ],
+      "prompt_en": "A flat-coloring method that mainly applies local colors with little or no shading, often used for color designs or simple presentation art."
+    },
+    {
+      "id": "coloring-gyaruge-nuri",
+      "stage": "coloring",
+      "ja": "ギャルゲ塗り",
+      "zh": "美少女游戏式上色",
+      "romaji": "gyaruge-nuri",
+      "description_zh": "在赛璐璐基础上加入柔和渐变、细腻皮肤、头发和眼睛高光，常见于视觉小说与美少女游戏。",
+      "cues": [
+        "柔和渐变",
+        "精细眼睛",
+        "发丝高光",
+        "视觉小说感"
+      ],
+      "related": [
+        "美少女系",
+        "CG塗り"
+      ],
+      "prompt_en": "A visual-novel or bishoujo-game coloring style that combines cel-like shadow shapes with soft gradients, polished skin, and detailed eye or hair highlights."
+    },
+    {
+      "id": "coloring-cg-nuri",
+      "stage": "coloring",
+      "ja": "CG塗り",
+      "zh": "数码CG上色",
+      "romaji": "CG-nuri",
+      "description_zh": "使用喷枪、模糊、叠色和图层效果增强体积与完成度，数码插画感明显。",
+      "cues": [
+        "喷枪",
+        "柔化过渡",
+        "叠色",
+        "完成度高"
+      ],
+      "related": [
+        "グラデ塗り",
+        "ギャルゲ塗り"
+      ],
+      "prompt_en": "A digital coloring style that uses airbrushes, soft blending, layer effects, and controlled gradients to create a polished CG illustration finish."
+    },
+    {
+      "id": "coloring-atsu-nuri",
+      "stage": "coloring",
+      "ja": "厚塗り",
+      "zh": "厚涂",
+      "romaji": "atsu-nuri",
+      "description_zh": "弱化线稿，靠笔触、色块和明暗塑造体积，常见于幻想题材和手游卡面。",
+      "cues": [
+        "体积感",
+        "笔触",
+        "边缘虚实",
+        "质感描写"
+      ],
+      "related": [
+        "線なし",
+        "カードイラスト"
+      ],
+      "prompt_en": "A painterly rendering method that builds volume through brushwork, color masses, and light rather than relying heavily on line art."
+    },
+    {
+      "id": "coloring-gurizaiyu-gahou",
+      "stage": "coloring",
+      "ja": "グリザイユ画法",
+      "zh": "灰阶上色法",
+      "romaji": "gurizaiyu gahou",
+      "description_zh": "先用灰度建立明暗，再叠加颜色；适合控制体积、光影和复杂完成稿。",
+      "cues": [
+        "先灰度",
+        "后上色",
+        "明暗分离",
+        "体积控制"
+      ],
+      "related": [
+        "厚塗り",
+        "低明度"
+      ],
+      "prompt_en": "A grisaille workflow that establishes value and lighting in grayscale first, then applies color on top for controlled volume and mood."
+    },
+    {
+      "id": "coloring-suisai-nuri",
+      "stage": "coloring",
+      "ja": "水彩塗り",
+      "zh": "水彩上色",
+      "romaji": "suisai-nuri",
+      "description_zh": "模拟透明水彩的淡色、渗化、纸纹和留白，画面通常轻柔。",
+      "cues": [
+        "透明",
+        "渗化边缘",
+        "纸纹",
+        "留白"
+      ],
+      "related": [
+        "紙の質感",
+        "途切れ線"
+      ],
+      "prompt_en": "A coloring technique that mimics watercolor painting, characterized by translucent washes, gentle color bleeding, soft edges, and a delicate, fluid finish."
+    },
+    {
+      "id": "coloring-toumeikan-nuri",
+      "stage": "coloring",
+      "ja": "透明感塗り",
+      "zh": "通透感上色",
+      "romaji": "toumeikan-nuri",
+      "description_zh": "高明度、低浊度、浅蓝紫阴影和柔和高光，强调清澈、空气和皮肤透亮。",
+      "cues": [
+        "高明度",
+        "浅冷阴影",
+        "清澈",
+        "柔光"
+      ],
+      "related": [
+        "透明感",
+        "細線"
+      ],
+      "prompt_en": "A translucent-feeling coloring style with high brightness, clean colors, pale cool shadows, and luminous skin or hair treatment."
+    },
+    {
+      "id": "coloring-burashi-nuri",
+      "stage": "coloring",
+      "ja": "ブラシ塗り",
+      "zh": "笔刷上色",
+      "romaji": "burashi-nuri",
+      "description_zh": "保留笔刷扫痕和边缘纹理，不一定厚重，但能减少数码塑料感。",
+      "cues": [
+        "笔刷痕迹",
+        "纹理边缘",
+        "手绘感",
+        "不完全平滑"
+      ],
+      "related": [
+        "厚塗り",
+        "粒子感"
+      ],
+      "prompt_en": "A brush-based coloring approach that leaves visible brush texture or edge variation to reduce overly smooth digital plasticity."
+    },
+    {
+      "id": "coloring-gurade-nuri",
+      "stage": "coloring",
+      "ja": "グラデ塗り",
+      "zh": "渐变上色",
+      "romaji": "gurade-nuri",
+      "description_zh": "大量使用渐变和柔边过渡，使皮肤、头发或衣料显得圆润光滑。",
+      "cues": [
+        "柔边",
+        "喷枪",
+        "圆润",
+        "光滑"
+      ],
+      "related": [
+        "CG塗り",
+        "柔らかい影"
+      ],
+      "prompt_en": "A gradient-heavy coloring method using soft transitions and airbrushed blending to make skin, hair, or fabric look rounded and smooth."
+    },
+    {
+      "id": "coloring-posutaa-fuu",
+      "stage": "coloring",
+      "ja": "ポスター風",
+      "zh": "海报风",
+      "romaji": "posutaa-fuu",
+      "description_zh": "色块大、对比明确、构图装饰性强，适合封面、视觉主图和潮流插画。",
+      "cues": [
+        "大色块",
+        "高对比",
+        "装饰性",
+        "图形感"
+      ],
+      "related": [
+        "限定パレット",
+        "レトロポップ"
+      ],
+      "prompt_en": "A poster-like illustration style with large color shapes, clear contrast, strong graphic composition, and decorative visual impact."
+    },
+    {
+      "id": "coloring-2-5d-fuu",
+      "stage": "coloring",
+      "ja": "2.5D風",
+      "zh": "2.5D风",
+      "romaji": "2.5D-fuu",
+      "description_zh": "介于二维插画和三维体积之间，保留二次元造型，同时强化光影、材质和空间深度。",
+      "cues": [
+        "半立体",
+        "强体积",
+        "材质感",
+        "空间深度"
+      ],
+      "related": [
+        "厚塗り",
+        "カードイラスト"
+      ],
+      "prompt_en": "A hybrid style between 2D anime design and 3D volume, keeping stylized characters while emphasizing lighting, material, and spatial depth."
+    },
+    {
+      "id": "light-katai-kage",
+      "stage": "light",
+      "ja": "硬い影",
+      "zh": "硬边阴影",
+      "romaji": "katai kage",
+      "description_zh": "阴影边界清楚，像剪出的色块；适合动画感、赛璐璐和强烈阳光。",
+      "cues": [
+        "边界清晰",
+        "色块感",
+        "阳光",
+        "动画感"
+      ],
+      "related": [
+        "アニメ塗り",
+        "セル塗り"
+      ],
+      "prompt_en": "The use of hard-edged shadows with clearly defined boundaries, often associated with cel shading, animation, and strong sunlight."
+    },
+    {
+      "id": "light-yawarakai-kage",
+      "stage": "light",
+      "ja": "柔らかい影",
+      "zh": "软边阴影",
+      "romaji": "yawarakai kage",
+      "description_zh": "阴影边缘模糊，过渡自然，常用于柔光、皮肤和空气感画面。",
+      "cues": [
+        "边缘模糊",
+        "渐变",
+        "柔和",
+        "皮肤"
+      ],
+      "related": [
+        "グラデ塗り",
+        "透明感塗り"
+      ],
+      "prompt_en": "The use of soft, diffused shadows that shape forms without harsh boundaries, contributing to a tender, gentle, and soothing visual mood."
+    },
+    {
+      "id": "light-ochi-kage",
+      "stage": "light",
+      "ja": "落ち影",
+      "zh": "投影",
+      "romaji": "ochi-kage",
+      "description_zh": "一个物体投到另一个物体上的影子，如刘海投到脸上的影、帽檐投影。",
+      "cues": [
+        "物体遮挡",
+        "方向明确",
+        "空间关系",
+        "形状投射"
+      ],
+      "related": [
+        "接触影",
+        "逆光"
+      ],
+      "prompt_en": "A cast shadow produced when one form blocks light and projects a shadow shape onto another surface, such as bangs on a face."
+    },
+    {
+      "id": "light-sesshoku-kage",
+      "stage": "light",
+      "ja": "接触影",
+      "zh": "接触阴影",
+      "romaji": "sesshoku-kage",
+      "description_zh": "物体接触或靠近处的短暗部，如下巴下、发丝压住脸、衣褶深处。",
+      "cues": [
+        "缝隙暗部",
+        "贴合感",
+        "压住关系",
+        "立体"
+      ],
+      "related": [
+        "AO",
+        "落ち影"
+      ],
+      "prompt_en": "A compact dark area where forms touch or nearly touch, helping hair, clothing folds, and body parts feel physically connected."
+    },
+    {
+      "id": "light-kankyoukou",
+      "stage": "light",
+      "ja": "環境光",
+      "zh": "环境光",
+      "romaji": "kankyoukou",
+      "description_zh": "来自天空、墙面、背景或整体环境的间接光，让角色融入场景色调。",
+      "cues": [
+        "反射色",
+        "统一画面",
+        "场景色",
+        "暗部带色"
+      ],
+      "related": [
+        "寒暖差",
+        "逆光"
+      ],
+      "prompt_en": "Indirect light from the surrounding environment that tints shadows and helps the character belong to the scene."
+    },
+    {
+      "id": "light-rimu-raito",
+      "stage": "light",
+      "ja": "リムライト",
+      "zh": "边缘光",
+      "romaji": "rimu-raito",
+      "description_zh": "沿角色轮廓出现的细亮边，常用于逆光、舞台、夜景和赛博氛围。",
+      "cues": [
+        "轮廓亮边",
+        "分离背景",
+        "舞台感",
+        "夜景"
+      ],
+      "related": [
+        "逆光",
+        "ネオンカラー"
+      ],
+      "prompt_en": "A rim light is a bright edge along the silhouette that separates the character from the background and adds drama or stage-like lighting."
+    },
+    {
+      "id": "light-gyakukou",
+      "stage": "light",
+      "ja": "逆光",
+      "zh": "逆光",
+      "romaji": "gyakukou",
+      "description_zh": "光源在角色后方，正面较暗，轮廓和发丝边缘更亮，戏剧性强。",
+      "cues": [
+        "背后光源",
+        "轮廓亮",
+        "正面暗",
+        "戏剧感"
+      ],
+      "related": [
+        "リムライト",
+        "ブルーム"
+      ],
+      "prompt_en": "Backlighting places the main light source behind the subject, making the front darker while the outline, hair, or edges glow."
+    },
+    {
+      "id": "light-toppu-raito",
+      "stage": "light",
+      "ja": "トップライト",
+      "zh": "顶光",
+      "romaji": "toppu-raito",
+      "description_zh": "光从上方照下，眼窝、鼻下、下巴下会出现更明显的阴影。",
+      "cues": [
+        "上方光源",
+        "眼窝阴影",
+        "压迫感",
+        "戏剧"
+      ],
+      "related": [
+        "硬い影",
+        "低明度"
+      ],
+      "prompt_en": "Top lighting comes from above and often creates strong shadows under the brow, nose, chin, or clothing folds."
+    },
+    {
+      "id": "light-hairaito",
+      "stage": "light",
+      "ja": "ハイライト",
+      "zh": "高光",
+      "romaji": "hairaito",
+      "description_zh": "亮部的强调点或亮面，常见于眼睛、头发、皮革、金属和湿润材质。",
+      "cues": [
+        "亮点",
+        "光泽",
+        "头发亮带",
+        "眼睛闪光"
+      ],
+      "related": [
+        "宝石目",
+        "スペキュラー"
+      ],
+      "prompt_en": "A highlight is a bright accent placed on glossy or illuminated areas such as eyes, hair, metal, leather, or wet surfaces."
+    },
+    {
+      "id": "light-supekkyuraa",
+      "stage": "light",
+      "ja": "スペキュラー",
+      "zh": "光泽高光",
+      "romaji": "supekkyuraa",
+      "description_zh": "偏镜面反射的高光，形状较集中，常用于金属、皮革、玻璃、湿发。",
+      "cues": [
+        "镜面反射",
+        "亮点集中",
+        "材质感",
+        "硬亮"
+      ],
+      "related": [
+        "ハイライト",
+        "カードイラスト"
+      ],
+      "prompt_en": "A specular highlight is a concentrated mirror-like reflection that communicates shiny materials such as glass, metal, leather, or wet hair."
+    },
+    {
+      "id": "light-ao",
+      "stage": "light",
+      "ja": "AO",
+      "zh": "环境遮蔽",
+      "romaji": "AO",
+      "description_zh": "Ambient Occlusion 的简写，用于表现缝隙、接触处和遮挡处的局部暗部。",
+      "cues": [
+        "缝隙暗",
+        "接触处",
+        "遮挡",
+        "体积增强"
+      ],
+      "related": [
+        "接触影",
+        "厚塗り"
+      ],
+      "prompt_en": "Ambient occlusion is a local darkening effect used in creases, contact areas, and tight gaps to strengthen the sense of volume."
+    },
+    {
+      "id": "light-sabusaafesu-sukyattaringu",
+      "stage": "light",
+      "ja": "サブサーフェス・スキャタリング",
+      "zh": "次表面散射 / 透光",
+      "romaji": "sabusaafesu sukyattaringu",
+      "description_zh": "耳朵、手指、皮肤边缘透出暖红光，表现皮肤半透明感。",
+      "cues": [
+        "耳朵泛红",
+        "手指透光",
+        "暖红边缘",
+        "皮肤通透"
+      ],
+      "related": [
+        "透明感",
+        "逆光"
+      ],
+      "prompt_en": "Subsurface scattering describes warm light passing through skin, ears, or fingers, creating reddish translucent edges."
+    },
+    {
+      "id": "palette-kousaido",
+      "stage": "palette",
+      "ja": "高彩度",
+      "zh": "高饱和",
+      "romaji": "kousaido",
+      "description_zh": "颜色鲜艳、纯度高，视觉冲击强，适合偶像、流行、手游和糖果色画面。",
+      "cues": [
+        "鲜艳",
+        "强冲击",
+        "活泼",
+        "流行"
+      ],
+      "related": [
+        "キャンディカラー",
+        "アイドル風"
+      ],
+      "prompt_en": "A high-saturation palette uses vivid, intense colors that create strong visual impact, energy, and pop appeal."
+    },
+    {
+      "id": "palette-teisaido",
+      "stage": "palette",
+      "ja": "低彩度",
+      "zh": "低饱和",
+      "romaji": "teisaido",
+      "description_zh": "颜色更灰、更克制，适合文艺、复古、日常、沉静或高级感画面。",
+      "cues": [
+        "偏灰",
+        "克制",
+        "沉静",
+        "文艺"
+      ],
+      "related": [
+        "くすみカラー",
+        "レトロポップ"
+      ],
+      "prompt_en": "A low-saturation palette uses grayer, more restrained colors for a calm, mature, retro, or literary mood."
+    },
+    {
+      "id": "palette-koumeido",
+      "stage": "palette",
+      "ja": "高明度",
+      "zh": "高明度",
+      "romaji": "koumeido",
+      "description_zh": "整体偏亮，暗部也不深，适合清新、治愈、透明感和日常阳光场景。",
+      "cues": [
+        "亮",
+        "浅色",
+        "治愈",
+        "轻盈"
+      ],
+      "related": [
+        "透明感塗り",
+        "清涼感"
+      ],
+      "prompt_en": "A high-value palette keeps the overall image bright, even in the shadows, producing a fresh, light, and healing impression."
+    },
+    {
+      "id": "palette-teimeido",
+      "stage": "palette",
+      "ja": "低明度",
+      "zh": "低明度",
+      "romaji": "teimeido",
+      "description_zh": "整体偏暗，适合夜景、悬疑、哥特、战斗、暗黑幻想等氛围。",
+      "cues": [
+        "暗",
+        "沉重",
+        "夜景",
+        "戏剧"
+      ],
+      "related": [
+        "ゴシック",
+        "ダークファンタジー"
+      ],
+      "prompt_en": "A low-value palette keeps the overall image dark, making it suitable for night scenes, gothic moods, suspense, or dark fantasy."
+    },
+    {
+      "id": "palette-pasuteru-karaa",
+      "stage": "palette",
+      "ja": "パステルカラー",
+      "zh": "粉彩色",
+      "romaji": "pasuteru karaa",
+      "description_zh": "浅粉、浅蓝、浅紫、奶油黄等低刺激浅色，常带柔软甜美感。",
+      "cues": [
+        "浅色",
+        "柔软",
+        "甜美",
+        "低刺激"
+      ],
+      "related": [
+        "ゆめかわいい",
+        "透明感"
+      ],
+      "prompt_en": "A palette dominated by pastel colors—soft pinks, baby blues, mint greens, and light yellows—creating a sweet, airy, and calming atmosphere."
+    },
+    {
+      "id": "palette-kyandi-karaa",
+      "stage": "palette",
+      "ja": "キャンディカラー",
+      "zh": "糖果色",
+      "romaji": "kyandi karaa",
+      "description_zh": "比粉彩更鲜亮、更饱和的甜味色彩，常用于偶像、可爱、流行风格。",
+      "cues": [
+        "鲜亮",
+        "甜",
+        "可爱",
+        "高饱和"
+      ],
+      "related": [
+        "高彩度",
+        "アイドル風"
+      ],
+      "prompt_en": "A candy-color palette uses brighter and sweeter saturated hues than pastels, often creating a playful idol, pop, or cute impression."
+    },
+    {
+      "id": "palette-neon-karaa",
+      "stage": "palette",
+      "ja": "ネオンカラー",
+      "zh": "霓虹色",
+      "romaji": "neon karaa",
+      "description_zh": "接近荧光的强饱和色，常与夜景、电子屏、赛博朋克和边缘光组合。",
+      "cues": [
+        "荧光",
+        "夜景",
+        "电子感",
+        "强对比"
+      ],
+      "related": [
+        "サイバーパンク",
+        "リムライト"
+      ],
+      "prompt_en": "A neon-color palette uses fluorescent-looking, highly saturated hues that pair well with night scenes, screens, cyberpunk, and rim lighting."
+    },
+    {
+      "id": "palette-kusumi-karaa",
+      "stage": "palette",
+      "ja": "くすみカラー",
+      "zh": "灰调色 / 莫兰迪感",
+      "romaji": "kusumi karaa",
+      "description_zh": "混入灰度的低饱和色，画面柔和、复古、安静，刺激性较低。",
+      "cues": [
+        "灰度",
+        "低饱和",
+        "温和",
+        "复古"
+      ],
+      "related": [
+        "低彩度",
+        "レトロポップ"
+      ],
+      "prompt_en": "A muted grayish palette that feels soft, vintage, quiet, and sophisticated because the colors are deliberately desaturated."
+    },
+    {
+      "id": "palette-gentei-paretto",
+      "stage": "palette",
+      "ja": "限定パレット",
+      "zh": "限定色盘",
+      "romaji": "gentei paretto",
+      "description_zh": "整张图只使用少数主色，便于形成统一、强识别度和海报感。",
+      "cues": [
+        "少数主色",
+        "统一",
+        "设计感",
+        "识别度"
+      ],
+      "related": [
+        "ポスター風",
+        "補色"
+      ],
+      "prompt_en": "A limited palette restricts the image to a small set of main colors to create unity, identity, and poster-like clarity."
+    },
+    {
+      "id": "palette-hoshoku",
+      "stage": "palette",
+      "ja": "補色",
+      "zh": "互补色 / 对比色",
+      "romaji": "hoshoku",
+      "description_zh": "色相环上相对的颜色组合，如蓝橙、红绿、紫黄，冲突和张力强。",
+      "cues": [
+        "蓝橙",
+        "红绿",
+        "强对比",
+        "视觉张力"
+      ],
+      "related": [
+        "限定パレット",
+        "寒暖差"
+      ],
+      "prompt_en": "A complementary color scheme uses opposite hues, such as blue and orange or red and green, to create strong contrast and tension."
+    },
+    {
+      "id": "palette-ruijishoku",
+      "stage": "palette",
+      "ja": "類似色",
+      "zh": "邻近色",
+      "romaji": "ruijishoku",
+      "description_zh": "色相环上相邻的颜色组合，如蓝紫、粉紫、黄橙，画面更和谐。",
+      "cues": [
+        "相邻色",
+        "和谐",
+        "柔和",
+        "统一"
+      ],
+      "related": [
+        "パステルカラー",
+        "透明感"
+      ],
+      "prompt_en": "An analogous color scheme uses neighboring hues, such as blue-violet or yellow-orange, to create harmony and visual unity."
+    },
+    {
+      "id": "palette-kandansa",
+      "stage": "palette",
+      "ja": "寒暖差",
+      "zh": "冷暖对比",
+      "romaji": "kandansa",
+      "description_zh": "利用冷色和暖色的差异制造空间、情绪和光源关系，如冷背景暖人物。",
+      "cues": [
+        "冷暖分离",
+        "空间",
+        "情绪",
+        "光源"
+      ],
+      "related": [
+        "環境光",
+        "補色"
+      ],
+      "prompt_en": "Warm-cool contrast uses temperature differences in color to define lighting, space, atmosphere, and emotional contrast."
+    },
+    {
+      "id": "texture-kuuki-kan",
+      "stage": "texture",
+      "ja": "空気感",
+      "zh": "空气感",
+      "romaji": "kuuki-kan",
+      "description_zh": "边缘柔、背景虚、光雾或环境色明显，让人物像处在空气中而不是贴在画布上。",
+      "cues": [
+        "边缘柔",
+        "背景虚",
+        "光雾",
+        "空间"
+      ],
+      "related": [
+        "被写界深度",
+        "透明感"
+      ],
+      "prompt_en": "A strong sense of atmosphere and spatial depth; the artwork feels filled with light and air, as if you can sense the temperature, mood, and breath of the scene."
+    },
+    {
+      "id": "texture-toumeikan",
+      "stage": "texture",
+      "ja": "透明感",
+      "zh": "通透感",
+      "romaji": "toumeikan",
+      "description_zh": "画面干净、暗部不脏、皮肤和头发像有光透进去，常与高明度和冷色阴影组合。",
+      "cues": [
+        "干净",
+        "浅冷阴影",
+        "皮肤透亮",
+        "不浑浊"
+      ],
+      "related": [
+        "透明感塗り",
+        "サブサーフェス・スキャタリング"
+      ],
+      "prompt_en": "A clean translucent impression where shadows stay clear, skin and hair feel luminous, and the image avoids muddy or heavy color."
+    },
+    {
+      "id": "texture-ryuushi-kan",
+      "stage": "texture",
+      "ja": "粒子感",
+      "zh": "颗粒感 / 噪点",
+      "romaji": "ryuushi-kan",
+      "description_zh": "画面表面有细小噪点或颗粒，可以减少数码过度光滑，增加印刷或胶片触感。",
+      "cues": [
+        "噪点",
+        "颗粒",
+        "非光滑",
+        "印刷感"
+      ],
+      "related": [
+        "フィルム感",
+        "スクリーントーン"
+      ],
+      "prompt_en": "A subtle grain or noise texture that reduces digital smoothness and adds a printed, filmic, or tactile surface quality."
+    },
+    {
+      "id": "texture-kami-no-shitsukan",
+      "stage": "texture",
+      "ja": "紙の質感",
+      "zh": "纸纹",
+      "romaji": "kami no shitsukan",
+      "description_zh": "模拟水彩纸、素描纸或旧纸纹理，常与水彩、淡彩、复古画面结合。",
+      "cues": [
+        "纸张纹理",
+        "传统媒介",
+        "留白",
+        "手绘"
+      ],
+      "related": [
+        "水彩塗り",
+        "低彩度"
+      ],
+      "prompt_en": "A paper-texture effect that simulates watercolor paper, sketch paper, or aged paper for a traditional hand-made feeling."
+    },
+    {
+      "id": "texture-sofuto-fookasu",
+      "stage": "texture",
+      "ja": "ソフトフォーカス",
+      "zh": "柔焦",
+      "romaji": "sofuto fookasu",
+      "description_zh": "细节略微柔化，亮部和边缘不锐利，画面更梦幻或温柔。",
+      "cues": [
+        "不锐利",
+        "柔化",
+        "梦幻",
+        "温柔"
+      ],
+      "related": [
+        "空気感",
+        "ブルーム"
+      ],
+      "prompt_en": "A soft-focus treatment slightly blurs edges or details to create a dreamy, gentle, romantic, or emotionally softened look."
+    },
+    {
+      "id": "texture-buruumu",
+      "stage": "texture",
+      "ja": "ブルーム",
+      "zh": "泛光",
+      "romaji": "buruumu",
+      "description_zh": "亮部向周围溢出光晕，常用于逆光、魔法、舞台灯和夜景霓虹。",
+      "cues": [
+        "亮部外溢",
+        "光晕",
+        "魔法",
+        "夜景"
+      ],
+      "related": [
+        "逆光",
+        "ネオンカラー"
+      ],
+      "prompt_en": "A bloom effect makes bright areas spill outward as a glow, often used for backlight, magic, stage lighting, or neon night scenes."
+    },
+    {
+      "id": "texture-iro-shuusa",
+      "stage": "texture",
+      "ja": "色収差",
+      "zh": "色差",
+      "romaji": "iro-shuusa",
+      "description_zh": "图像边缘出现轻微红蓝错位，增加镜头感、电子感或现代后期感。",
+      "cues": [
+        "红蓝错位",
+        "镜头感",
+        "电子感",
+        "边缘"
+      ],
+      "related": [
+        "サイバーパンク",
+        "ネオンカラー"
+      ],
+      "prompt_en": "Chromatic aberration adds slight red-blue edge separation to create a lens-like, digital, cyber, or modern post-processed feel."
+    },
+    {
+      "id": "texture-hishakai-shindo",
+      "stage": "texture",
+      "ja": "被写界深度",
+      "zh": "景深",
+      "romaji": "hishakai shindo",
+      "description_zh": "前景或背景虚化，焦点集中在角色脸部、眼睛、手或关键物件上。",
+      "cues": [
+        "背景虚化",
+        "焦点明确",
+        "镜头语言",
+        "空间"
+      ],
+      "related": [
+        "空気感",
+        "レンズフレア"
+      ],
+      "prompt_en": "Depth of field blurs the foreground or background so the viewer’s attention focuses on the face, eyes, hands, or main subject."
+    },
+    {
+      "id": "texture-renzu-furea",
+      "stage": "texture",
+      "ja": "レンズフレア",
+      "zh": "镜头光斑",
+      "romaji": "renzu furea",
+      "description_zh": "强光经过镜头形成的光斑或光线，增加摄影感和戏剧性。",
+      "cues": [
+        "光斑",
+        "强光源",
+        "摄影感",
+        "戏剧"
+      ],
+      "related": [
+        "逆光",
+        "ブルーム"
+      ],
+      "prompt_en": "Lens flare is a camera-like light artifact caused by strong light sources, often used to add cinematic brightness or atmosphere."
+    },
+    {
+      "id": "texture-sukuriin-toon",
+      "stage": "texture",
+      "ja": "スクリーントーン",
+      "zh": "网点 / 漫画网纹",
+      "romaji": "sukuriin toon",
+      "description_zh": "用网点或纹理表现灰度、阴影和印刷感，常见于漫画和复古图像。",
+      "cues": [
+        "网点",
+        "印刷",
+        "漫画",
+        "灰度"
+      ],
+      "related": [
+        "粒子感",
+        "レトロポップ"
+      ],
+      "prompt_en": "Screentone uses dots, halftones, or printed textures to evoke manga shading, printing, retro graphics, or comic-style surfaces."
+    },
+    {
+      "id": "texture-firumu-kan",
+      "stage": "texture",
+      "ja": "フィルム感",
+      "zh": "胶片感",
+      "romaji": "firumu-kan",
+      "description_zh": "通过颗粒、偏色、低对比或轻微褪色模拟胶片摄影和怀旧氛围。",
+      "cues": [
+        "颗粒",
+        "偏色",
+        "怀旧",
+        "低对比"
+      ],
+      "related": [
+        "粒子感",
+        "低彩度"
+      ],
+      "prompt_en": "A film-like treatment using grain, softer contrast, muted color, or slight imperfection to create a nostalgic cinematic mood."
+    },
+    {
+      "id": "context-tachie",
+      "stage": "context",
+      "ja": "立ち絵",
+      "zh": "立绘",
+      "romaji": "tachie",
+      "description_zh": "角色站姿展示图，重点是角色轮廓、服装设计、正面可读性和设定表达。",
+      "cues": [
+        "站姿",
+        "角色展示",
+        "服装清楚",
+        "轮廓可读"
+      ],
+      "related": [
+        "高頭身",
+        "清書線"
+      ],
+      "prompt_en": "A standing character illustration that prioritizes silhouette readability, costume design, pose clarity, and character presentation."
+    },
+    {
+      "id": "context-setteiga",
+      "stage": "context",
+      "ja": "設定画",
+      "zh": "设定图",
+      "romaji": "setteiga",
+      "description_zh": "用于说明角色、服装、道具或世界观的设计稿，通常强调结构和信息清晰。",
+      "cues": [
+        "设计说明",
+        "结构清楚",
+        "配件拆解",
+        "信息性"
+      ],
+      "related": [
+        "平塗り",
+        "ラフ線"
+      ],
+      "prompt_en": "A design sheet or concept reference that explains character, costume, props, or world-building information with structural clarity."
+    },
+    {
+      "id": "context-sanmenzu",
+      "stage": "context",
+      "ja": "三面図",
+      "zh": "三视图",
+      "romaji": "sanmenzu",
+      "description_zh": "正面、侧面、背面展示角色或物件，用于建模、动画、Live2D或设定规范。",
+      "cues": [
+        "正侧背",
+        "规范",
+        "比例",
+        "制作参考"
+      ],
+      "related": [
+        "設定画",
+        "Live2D用立ち絵"
+      ],
+      "prompt_en": "A three-view reference showing the front, side, and back of a character or object for modeling, animation, Live2D, or production consistency."
+    },
+    {
+      "id": "context-kaado-irasuto",
+      "stage": "context",
+      "ja": "カードイラスト",
+      "zh": "卡面插画",
+      "romaji": "kaado irasuto",
+      "description_zh": "常见于手游、TCG或抽卡游戏；构图戏剧化，完成度和光效通常较高。",
+      "cues": [
+        "强构图",
+        "高完成度",
+        "特效",
+        "抽卡感"
+      ],
+      "related": [
+        "ソーシャルゲーム風",
+        "厚塗り"
+      ],
+      "prompt_en": "A card illustration for mobile games, trading cards, or gacha systems, usually featuring dramatic composition, effects, and high rendering polish."
+    },
+    {
+      "id": "context-raito-noberu-hyoushi",
+      "stage": "context",
+      "ja": "ライトノベル表紙",
+      "zh": "轻小说封面",
+      "romaji": "raito noberu hyoushi",
+      "description_zh": "角色突出、标题空间明确、色彩干净，重点在角色魅力和一眼识别。",
+      "cues": [
+        "角色居中",
+        "标题空间",
+        "干净色彩",
+        "封面感"
+      ],
+      "related": [
+        "美少女系",
+        "透明感塗り"
+      ],
+      "prompt_en": "A light-novel cover style that highlights character appeal, clean colors, readable title space, and instant genre recognition."
+    },
+    {
+      "id": "context-ibento-cg",
+      "stage": "context",
+      "ja": "イベントCG",
+      "zh": "视觉小说事件CG",
+      "romaji": "ibento CG",
+      "description_zh": "视觉小说中的剧情瞬间插画，强调场景、角色表情和叙事时刻。",
+      "cues": [
+        "剧情瞬间",
+        "半身常见",
+        "表情",
+        "场景关系"
+      ],
+      "related": [
+        "ギャルゲ塗り",
+        "ソフトフォーカス"
+      ],
+      "prompt_en": "A visual-novel event CG depicts a narrative moment with emphasis on scene context, character expression, and emotional timing."
+    },
+    {
+      "id": "context-live2d-you-tachie",
+      "stage": "context",
+      "ja": "Live2D用立ち絵",
+      "zh": "Live2D用立绘",
+      "romaji": "Live2D-you tachie",
+      "description_zh": "为Live2D拆分和动画而准备的角色立绘，需要线条清楚、部件分层明确。",
+      "cues": [
+        "可拆分",
+        "正面可读",
+        "部件清晰",
+        "清稿"
+      ],
+      "related": [
+        "清書線",
+        "立ち絵"
+      ],
+      "prompt_en": "A Live2D-ready standing illustration designed with clean parts, readable contours, and separable components for rigging and animation."
+    },
+    {
+      "id": "context-doujinshi-hyoushi",
+      "stage": "context",
+      "ja": "同人誌表紙",
+      "zh": "同人志封面",
+      "romaji": "doujinshi hyoushi",
+      "description_zh": "强调角色关系、标题位置、情绪和构图识别度，常带作者个人风格。",
+      "cues": [
+        "标题区",
+        "角色关系",
+        "情绪",
+        "封面构图"
+      ],
+      "related": [
+        "ライトノベル表紙",
+        "ポスター風"
+      ],
+      "prompt_en": "A doujinshi-cover style that balances title placement, character relationships, emotional tone, and strong cover readability."
+    },
+    {
+      "id": "context-anime-no-wan-shiin-fuu",
+      "stage": "context",
+      "ja": "アニメのワンシーン風",
+      "zh": "动画截图感",
+      "romaji": "anime no wan-shiin-fuu",
+      "description_zh": "像动画中的一帧，角色与背景统一，阴影简洁，构图有镜头感。",
+      "cues": [
+        "一帧感",
+        "背景统一",
+        "简洁阴影",
+        "镜头构图"
+      ],
+      "related": [
+        "アニメ塗り",
+        "被写界深度"
+      ],
+      "prompt_en": "An anime-screenshot-like style that makes the image feel like one frame from an animated scene, with unified background, simple shadows, and camera-like composition."
+    },
+    {
+      "id": "context-soosharu-geemu-fuu",
+      "stage": "context",
+      "ja": "ソーシャルゲーム風",
+      "zh": "手游宣传图感",
+      "romaji": "soosharu geemu-fuu",
+      "description_zh": "高完成度、高对比、多光效、服装细节复杂，常用于角色宣传或抽卡展示。",
+      "cues": [
+        "高光效",
+        "复杂服装",
+        "强对比",
+        "宣传感"
+      ],
+      "related": [
+        "カードイラスト",
+        "2.5D風"
+      ],
+      "prompt_en": "A social-game promotional style with high polish, strong contrast, elaborate costume details, and dramatic light effects."
+    },
+    {
+      "id": "mood-seiryoukan",
+      "stage": "mood",
+      "ja": "清涼感",
+      "zh": "清新系",
+      "romaji": "seiryoukan",
+      "description_zh": "高明度、低对比、蓝天或浅色背景，整体轻快、干净、治愈。",
+      "cues": [
+        "浅色",
+        "低对比",
+        "阳光",
+        "干净"
+      ],
+      "related": [
+        "高明度",
+        "空気感"
+      ],
+      "prompt_en": "A fresh and cool visual mood built from bright values, low contrast, clean air, blue skies, and a light healing atmosphere."
+    },
+    {
+      "id": "mood-yumekawaii",
+      "stage": "mood",
+      "ja": "ゆめかわいい",
+      "zh": "梦幻可爱系",
+      "romaji": "yumekawaii",
+      "description_zh": "粉紫、星星、糖果、漂浮元素和柔软色彩构成的梦幻可爱审美。",
+      "cues": [
+        "粉紫",
+        "星星",
+        "糖果",
+        "梦幻"
+      ],
+      "related": [
+        "パステルカラー",
+        "キャンディカラー"
+      ],
+      "prompt_en": "A dreamy, cute aesthetic that blends ethereal, fantasy-like elements with adorable charm, often using soft glows, floating motifs, and a slightly surreal, gentle sweetness."
+    },
+    {
+      "id": "mood-yamikawaii",
+      "stage": "mood",
+      "ja": "病みかわいい",
+      "zh": "病娇 / 暗黑可爱",
+      "romaji": "yamikawaii",
+      "description_zh": "可爱造型与病态、阴郁、红黑紫、伤痕或危险感并置。",
+      "cues": [
+        "可爱+阴郁",
+        "红黑紫",
+        "危险感",
+        "反差"
+      ],
+      "related": [
+        "三白眼",
+        "低明度"
+      ],
+      "prompt_en": "A dark-cute aesthetic that combines adorable character design with gloomy, dangerous, sickly, or unsettling visual motifs."
+    },
+    {
+      "id": "mood-saibaa-panku",
+      "stage": "mood",
+      "ja": "サイバーパンク",
+      "zh": "赛博系",
+      "romaji": "saibaa-panku",
+      "description_zh": "霓虹、夜景、电子屏、机械义体、色差和强边缘光构成的未来都市感。",
+      "cues": [
+        "霓虹",
+        "夜景",
+        "电子屏",
+        "未来都市"
+      ],
+      "related": [
+        "ネオンカラー",
+        "色収差"
+      ],
+      "prompt_en": "A cyberpunk aesthetic built from neon lights, night cities, screens, mechanical elements, chromatic aberration, and strong rim lighting."
+    },
+    {
+      "id": "mood-wafuu-fantajii",
+      "stage": "mood",
+      "ja": "和風ファンタジー",
+      "zh": "和风幻想",
+      "romaji": "wafuu fantajii",
+      "description_zh": "和服、鸟居、樱花、金鱼、妖怪、传统纹样与幻想元素结合。",
+      "cues": [
+        "和服",
+        "鸟居",
+        "妖怪",
+        "传统纹样"
+      ],
+      "related": [
+        "限定パレット",
+        "カードイラスト"
+      ],
+      "prompt_en": "A Japanese-fantasy style combining kimono, torii gates, cherry blossoms, goldfish, youkai, traditional patterns, and magical elements."
+    },
+    {
+      "id": "mood-goshikku",
+      "stage": "mood",
+      "ja": "ゴシック",
+      "zh": "哥特系",
+      "romaji": "goshikku",
+      "description_zh": "黑白红、蕾丝、玫瑰、十字、烛光、古典建筑等构成暗色华丽感。",
+      "cues": [
+        "黑白红",
+        "蕾丝",
+        "玫瑰",
+        "烛光"
+      ],
+      "related": [
+        "低明度",
+        "病みかわいい"
+      ],
+      "prompt_en": "A gothic style using dark palettes, lace, roses, crosses, candles, old architecture, and elegant dramatic contrast."
+    },
+    {
+      "id": "mood-suchiimu-panku",
+      "stage": "mood",
+      "ja": "スチームパンク",
+      "zh": "蒸汽朋克",
+      "romaji": "suchiimu-panku",
+      "description_zh": "齿轮、铜色、皮革、机械、复古工业结构和维多利亚感混合。",
+      "cues": [
+        "齿轮",
+        "铜色",
+        "皮革",
+        "复古机械"
+      ],
+      "related": [
+        "くすみカラー",
+        "カードイラスト"
+      ],
+      "prompt_en": "A steampunk style mixing gears, brass tones, leather, mechanical forms, retro industry, and Victorian-inspired design."
+    },
+    {
+      "id": "mood-seishun-mono",
+      "stage": "mood",
+      "ja": "青春もの",
+      "zh": "学院青春感",
+      "romaji": "seishun-mono",
+      "description_zh": "校服、蓝天、窗边、逆光、日常场景和清澈色彩构成的青春叙事感。",
+      "cues": [
+        "校服",
+        "蓝天",
+        "窗边",
+        "日常"
+      ],
+      "related": [
+        "清涼感",
+        "逆光"
+      ],
+      "prompt_en": "A youth-story aesthetic with school uniforms, blue skies, windows, backlighting, daily-life settings, and clear emotional nostalgia."
+    },
+    {
+      "id": "mood-aidoru-fuu",
+      "stage": "mood",
+      "ja": "アイドル風",
+      "zh": "偶像感",
+      "romaji": "aidoru-fuu",
+      "description_zh": "舞台灯、高饱和色、闪粉、笑容、动态姿势和装饰性服装构成。",
+      "cues": [
+        "舞台灯",
+        "高饱和",
+        "笑容",
+        "闪粉"
+      ],
+      "related": [
+        "キャンディカラー",
+        "高頭身"
+      ],
+      "prompt_en": "An idol-like style using stage lights, saturated colors, sparkle effects, smiles, dynamic poses, and decorative performance costumes."
+    },
+    {
+      "id": "mood-daaku-fantajii",
+      "stage": "mood",
+      "ja": "ダークファンタジー",
+      "zh": "暗黑幻想",
+      "romaji": "daaku fantajii",
+      "description_zh": "低明度、强对比、怪物、魔法、金属和阴影浓重的幻想叙事。",
+      "cues": [
+        "低明度",
+        "怪物",
+        "魔法",
+        "强对比"
+      ],
+      "related": [
+        "厚塗り",
+        "ゴシック"
+      ],
+      "prompt_en": "A dark-fantasy style with low values, strong contrast, monsters, magic, metal, and heavy shadow-driven storytelling."
+    },
+    {
+      "id": "mood-retoro-poppu",
+      "stage": "mood",
+      "ja": "レトロポップ",
+      "zh": "复古流行",
+      "romaji": "retoro poppu",
+      "description_zh": "旧广告、印刷网点、限定色盘、暖灰色和几何装饰形成的复古可爱感。",
+      "cues": [
+        "旧广告",
+        "网点",
+        "限定色盘",
+        "几何装饰"
+      ],
+      "related": [
+        "スクリーントーン",
+        "くすみカラー"
+      ],
+      "prompt_en": "A retro-pop style inspired by old advertisements, halftone print textures, limited palettes, warm gray colors, and geometric decoration."
+    }
+  ]
+}

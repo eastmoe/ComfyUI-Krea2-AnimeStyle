@@ -1,0 +1,79 @@
+{
+  "nodes": {
+    "Krea2AnimeStyleCLIPTextEncode": {
+      "title": "Krea2 动漫风格 CLIP 文本编码",
+      "description": "编码正向与反向提示词，并把勾选的动漫插画风格英文描述追加到正向提示词。",
+      "inputs": {
+        "clip": {
+          "label": "CLIP"
+        },
+        "positive_text": {
+          "label": "正向画面描述",
+          "tooltip": "用户输入的正向提示词。"
+        },
+        "negative_text": {
+          "label": "反向画面描述",
+          "tooltip": "用户输入的反向提示词。"
+        },
+        "style_selection": {
+          "label": "风格选择",
+          "tooltip": "前端会显示为按分类分组的复选框；也可以手动输入风格 ID，使用逗号或换行分隔。"
+        },
+        "translate_prompts": {
+          "label": "翻译提示词",
+          "tooltip": "开启后使用连接的 CLIP-LLM 把用户提示词翻译成英文再编码。"
+        },
+        "translation_max_length": {
+          "label": "翻译最大长度",
+          "tooltip": "每次 CLIP-LLM 翻译生成的最大长度，最高 1024。"
+        }
+      },
+      "outputs": {
+        "positive": {
+          "label": "正向条件"
+        },
+        "negative": {
+          "label": "反向条件"
+        }
+      }
+    },
+    "Krea2AnimeStylePromptText": {
+      "title": "Krea2 动漫风格提示词文本",
+      "description": "处理正向与反向提示词，并把勾选的动漫插画风格英文描述追加到正向提示词，输出纯字符串。",
+      "inputs": {
+        "positive_text": {
+          "label": "正向画面描述",
+          "tooltip": "用户输入的正向提示词。"
+        },
+        "negative_text": {
+          "label": "反向画面描述",
+          "tooltip": "用户输入的反向提示词。"
+        },
+        "style_selection": {
+          "label": "风格选择",
+          "tooltip": "前端会显示为按分类分页的复选框；也可以手动输入风格 ID，使用逗号或换行分隔。"
+        },
+        "translate_prompts": {
+          "label": "翻译提示词",
+          "tooltip": "开启后使用可选连接的 CLIP-LLM 把用户提示词翻译成英文再输出。"
+        },
+        "translation_max_length": {
+          "label": "翻译最大长度",
+          "tooltip": "每次 CLIP-LLM 翻译生成的最大长度，最高 1024。"
+        },
+        "clip": {
+          "label": "CLIP",
+          "tooltip": "可选输入，仅在开启翻译提示词时需要连接支持生成的 CLIP-LLM。"
+        }
+      },
+      "outputs": {
+        "positive_text": {
+          "label": "正向文本"
+        },
+        "negative_text": {
+          "label": "反向文本"
+        }
+      }
+    }
+  }
+}
