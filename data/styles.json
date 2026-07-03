@@ -1,7 +1,7 @@
 {
   "source": "C:\\Users\\StarMoon\\Downloads\\anime_illustration_glossary.html",
   "stage_count": 8,
-  "style_count": 95,
+  "style_count": 145,
   "stages": [
     {
       "id": "form",
@@ -375,6 +375,63 @@
         "病みかわいい"
       ],
       "prompt_en": "Use sanpaku eye shapes where white space is visible on three sides of the iris, creating an intense, tired, dangerous, or unsettling mood."
+    },
+    {
+      "id": "form-shoujo-manga-fuu",
+      "stage": "form",
+      "ja": "少女漫画風",
+      "zh": "少女漫画风",
+      "romaji": "shoujo manga-fuu",
+      "description_zh": "强调纤细五官、闪亮眼睛、情绪化表情和装饰性画面语言，常带花饰、留白和浪漫气氛。",
+      "cues": [
+        "闪亮眼睛",
+        "纤细五官",
+        "花饰",
+        "浪漫情绪"
+      ],
+      "related": [
+        "乙女向け",
+        "細線"
+      ],
+      "prompt_en": "Use shoujo manga styling with delicate facial features, sparkling expressive eyes, romantic emotions, ornamental flowers or soft background motifs, elegant lines, and graceful negative space."
+    },
+    {
+      "id": "form-gekiga-fuu",
+      "stage": "form",
+      "ja": "劇画風",
+      "zh": "剧画风",
+      "romaji": "gekiga-fuu",
+      "description_zh": "比普通青年漫画更硬派写实，强调粗粝墨线、明确骨相、厚重阴影和冷峻叙事感。",
+      "cues": [
+        "写实骨相",
+        "粗粝墨线",
+        "厚重阴影",
+        "硬派气质"
+      ],
+      "related": [
+        "青年漫画風",
+        "太線"
+      ],
+      "prompt_en": "Use gekiga-inspired styling with realistic facial structure, gritty ink-like line work, heavier shadows, restrained expressions, mature drama, and a hard-boiled manga atmosphere."
+    },
+    {
+      "id": "form-bishounen-ikemen-fuu",
+      "stage": "form",
+      "ja": "美少年・イケメン風",
+      "zh": "美少年 / Ikemen风",
+      "romaji": "bishounen ikemen-fuu",
+      "description_zh": "以修长比例、精致男性五官、柔韧姿态和暧昧情绪为核心，常用于女性向或BL审美。",
+      "cues": [
+        "修长比例",
+        "精致男性五官",
+        "长睫毛",
+        "暧昧情绪"
+      ],
+      "related": [
+        "乙女向け",
+        "高頭身"
+      ],
+      "prompt_en": "Use bishounen or ikemen styling with elegant male beauty, slender proportions, refined facial features, expressive eyes, graceful poses, and subtle romantic or emotionally charged atmosphere."
     },
     {
       "id": "line-senga",
@@ -793,6 +850,82 @@
         "カードイラスト"
       ],
       "prompt_en": "Use two-and-a-half-D hybrid style between 2D anime design and 3D volume, keeping stylized characters while emphasizing lighting, material, and spatial depth."
+    },
+    {
+      "id": "coloring-superflat",
+      "stage": "coloring",
+      "ja": "スーパーフラット",
+      "zh": "Superflat / 超扁平",
+      "romaji": "suupaa furatto",
+      "description_zh": "以强轮廓、平面色块、低深度空间和消费文化符号为核心，把动漫、海报和日本平面装饰感结合。",
+      "cues": [
+        "平面色块",
+        "强轮廓",
+        "低空间深度",
+        "消费符号"
+      ],
+      "related": [
+        "ポスター風",
+        "限定パレット"
+      ],
+      "prompt_en": "Use superflat styling with bold outlines, flat color fields, shallow depth, graphic composition, pop-culture motifs, and a polished anime-meets-poster surface."
+    },
+    {
+      "id": "coloring-rinpa-anime-fusion",
+      "stage": "coloring",
+      "ja": "琳派アニメ融合",
+      "zh": "琳派动漫混合",
+      "romaji": "rinpa anime fusion",
+      "description_zh": "把琳派装饰画语言与动漫角色结合，强调金箔感背景、流水花草、屏风式构图和华丽平面装饰。",
+      "cues": [
+        "金箔背景",
+        "流水花草",
+        "屏风构图",
+        "装饰平面"
+      ],
+      "related": [
+        "和風ファンタジー",
+        "浮世絵アニメ風"
+      ],
+      "prompt_en": "Use Rinpa-inspired anime fusion with gold-leaf-like backgrounds, flowing water or plant motifs, folding-screen composition, elegant flat decoration, and refined Japanese ornament."
+    },
+    {
+      "id": "coloring-shin-hanga-anime-fusion",
+      "stage": "coloring",
+      "ja": "新版画アニメ融合",
+      "zh": "新版画动漫混合",
+      "romaji": "shin-hanga anime fusion",
+      "description_zh": "把新版画的色层、雨雪夜景、柔和渐变和版画边缘用于动漫角色与风景，带安静怀旧的印刷感。",
+      "cues": [
+        "新版画色层",
+        "雨雪夜景",
+        "柔和渐变",
+        "怀旧印刷"
+      ],
+      "related": [
+        "フィルム感",
+        "くすみカラー"
+      ],
+      "prompt_en": "Use shin-hanga anime fusion with layered print colors, soft gradients, quiet rain or snow atmosphere, woodblock-like edges, and nostalgic Japanese landscape mood."
+    },
+    {
+      "id": "coloring-ehon-fuu",
+      "stage": "coloring",
+      "ja": "絵本風",
+      "zh": "绘本风",
+      "romaji": "ehon-fuu",
+      "description_zh": "像日式儿童绘本或童话插画，线条温和、色彩柔软、构图留白明显，整体亲切、朴素、幻想感轻。",
+      "cues": [
+        "柔软线条",
+        "童话感",
+        "留白",
+        "温和色彩"
+      ],
+      "related": [
+        "水彩塗り",
+        "紙の質感"
+      ],
+      "prompt_en": "Use picture-book styling with gentle lines, soft colors, simple readable shapes, warm negative space, light fantasy details, and a friendly hand-made illustration feel."
     },
     {
       "id": "light-katai-kage",
@@ -1460,6 +1593,158 @@
       "prompt_en": "Use film-like treatment with grain, softer contrast, muted color, slight imperfection, gentle halation, and nostalgic cinematic atmosphere across the image."
     },
     {
+      "id": "texture-datamosh",
+      "stage": "texture",
+      "ja": "データモッシュ",
+      "zh": "Datamosh / 数据流错帧",
+      "romaji": "deeta mosshu",
+      "description_zh": "模拟视频压缩错误和帧间错位，人物边缘会拖影、撕裂或变成块状残影，像动态影像编码损坏。",
+      "cues": [
+        "压缩错误",
+        "帧间拖影",
+        "块状残影",
+        "边缘撕裂"
+      ],
+      "related": [
+        "色収差",
+        "サイバーパンク"
+      ],
+      "prompt_en": "Use datamosh-like digital damage with compression blocks, inter-frame smearing, torn edges, blocky motion residue, and video-codec corruption that still keeps the subject readable."
+    },
+    {
+      "id": "texture-pixel-sorting",
+      "stage": "texture",
+      "ja": "ピクセルソート",
+      "zh": "Pixel Sorting / 像素排序",
+      "romaji": "pikuseru sooto",
+      "description_zh": "让局部像素沿水平或垂直方向被排序拉长，形成色带、扫描拖尾和静态数据崩坏感。",
+      "cues": [
+        "像素色带",
+        "横向拉伸",
+        "纵向拖尾",
+        "静态崩坏"
+      ],
+      "related": [
+        "色収差",
+        "限定パレット"
+      ],
+      "prompt_en": "Use pixel-sorting effects where selected image areas stretch into horizontal or vertical color bands, scanline drags, and organized digital corruption while preserving the main silhouette."
+    },
+    {
+      "id": "texture-risograph",
+      "stage": "texture",
+      "ja": "リソグラフ印刷",
+      "zh": "Risograph / Riso印刷",
+      "romaji": "risogurafu insatsu",
+      "description_zh": "模拟Riso独立出版印刷，强调专色油墨、轻微错版、颗粒纸感和明亮但有限的色彩层。",
+      "cues": [
+        "专色油墨",
+        "轻微错版",
+        "颗粒纸感",
+        "有限色层"
+      ],
+      "related": [
+        "限定パレット",
+        "紙の質感"
+      ],
+      "prompt_en": "Use risograph print styling with spot-ink colors, slight registration offset, grainy paper texture, layered flat colors, and small print imperfections like an indie zine."
+    },
+    {
+      "id": "texture-xerox-zine",
+      "stage": "texture",
+      "ja": "コピー誌・ゼロックス風",
+      "zh": "Xerox Zine / 复印机同人志风",
+      "romaji": "kopii-shi zerokkusu-fuu",
+      "description_zh": "像复印机制作的地下刊物或同人志，高对比黑白、复印噪点、剪贴边缘和粗糙排版痕迹明显。",
+      "cues": [
+        "复印噪点",
+        "高对比黑白",
+        "剪贴边缘",
+        "地下刊物"
+      ],
+      "related": [
+        "漫画原稿風",
+        "スクリーントーン"
+      ],
+      "prompt_en": "Use Xerox zine styling with harsh black-and-white contrast, copier noise, cut-and-paste edges, rough layout marks, photocopied texture, and underground self-published energy."
+    },
+    {
+      "id": "texture-linocut",
+      "stage": "texture",
+      "ja": "リノカット・木版風",
+      "zh": "Linocut / 木刻胶版风",
+      "romaji": "rinokatto mokuhan-fuu",
+      "description_zh": "用粗硬刻刀痕和强黑白块面塑造形体，边缘带手工切削感，适合民艺、海报或强烈轮廓。",
+      "cues": [
+        "刻刀痕",
+        "强黑白",
+        "粗硬边缘",
+        "民艺感"
+      ],
+      "related": [
+        "太線",
+        "限定パレット"
+      ],
+      "prompt_en": "Use linocut or woodcut-like texture with carved marks, bold black-and-white shapes, rough hand-cut edges, strong silhouettes, and printmaker-style simplification."
+    },
+    {
+      "id": "texture-scratchboard",
+      "stage": "texture",
+      "ja": "スクラッチボード",
+      "zh": "Scratchboard / 刮画风",
+      "romaji": "sukuracchi boodo",
+      "description_zh": "以黑底刮出白线或亮部，形成细密划痕、强烈明暗和雕刻般的高反差质感。",
+      "cues": [
+        "黑底白线",
+        "细密刮痕",
+        "强明暗",
+        "雕刻感"
+      ],
+      "related": [
+        "低明度",
+        "劇画風"
+      ],
+      "prompt_en": "Use scratchboard styling with bright lines scratched from a dark surface, dense etched marks, sharp highlights, strong contrast, and engraved texture around the subject."
+    },
+    {
+      "id": "texture-stained-glass",
+      "stage": "texture",
+      "ja": "ステンドグラス風",
+      "zh": "彩绘玻璃风",
+      "romaji": "sutendo gurasu-fuu",
+      "description_zh": "像彩绘玻璃窗，黑色铅线分割透明色块，光穿过图案，画面带宗教窗格或装饰镶嵌感。",
+      "cues": [
+        "铅线分割",
+        "透明色块",
+        "窗格构图",
+        "透光"
+      ],
+      "related": [
+        "ハイライト",
+        "ゴシック"
+      ],
+      "prompt_en": "Use stained-glass styling with dark lead outlines, translucent color panels, window-like segmentation, glowing backlight, and decorative sacred or ornamental composition."
+    },
+    {
+      "id": "texture-paper-cutout",
+      "stage": "texture",
+      "ja": "ペーパーカットアウト",
+      "zh": "Paper Cutout / 剪纸拼贴风",
+      "romaji": "peepaa kattoauto",
+      "description_zh": "用分层纸片、剪切边缘和轻微投影组成角色与背景，像纸偶舞台或手工拼贴插画。",
+      "cues": [
+        "分层纸片",
+        "剪切边缘",
+        "轻微投影",
+        "手工拼贴"
+      ],
+      "related": [
+        "紙の質感",
+        "ポスター風"
+      ],
+      "prompt_en": "Use paper-cutout styling with layered paper shapes, visible cut edges, small cast shadows, flat handmade collage surfaces, and a paper-theater sense of depth."
+    },
+    {
       "id": "context-tachie",
       "stage": "context",
       "ja": "立ち絵",
@@ -1648,6 +1933,120 @@
         "2.5D風"
       ],
       "prompt_en": "Use social-game promotional styling with high polish, strong contrast, elaborate costume details, dramatic light effects, and a collectible promotional finish."
+    },
+    {
+      "id": "context-manga-genkou-fuu",
+      "stage": "context",
+      "ja": "漫画原稿風",
+      "zh": "漫画原稿风",
+      "romaji": "manga genkou-fuu",
+      "description_zh": "像黑白漫画原稿或连载页面，强调墨线、黑白块面、网点、速度线、集中线和分格叙事。",
+      "cues": [
+        "黑白墨线",
+        "网点",
+        "速度线",
+        "分格"
+      ],
+      "related": [
+        "スクリーントーン",
+        "劇画風"
+      ],
+      "prompt_en": "Use manga manuscript styling with black-and-white ink work, screentone shading, strong black fills, speed lines, focus lines, panel-like composition, and serialized comic-page readability."
+    },
+    {
+      "id": "context-anime-bijutsu-haikei",
+      "stage": "context",
+      "ja": "アニメ美術背景",
+      "zh": "动画背景美术",
+      "romaji": "anime bijutsu haikei",
+      "description_zh": "以动画场景背景为核心，强调空间透视、环境光、日常地点、手绘质感和角色可融入的场景气氛。",
+      "cues": [
+        "场景背景",
+        "空间透视",
+        "环境光",
+        "手绘质感"
+      ],
+      "related": [
+        "環境光",
+        "空気感"
+      ],
+      "prompt_en": "Use anime background art styling with carefully composed environments, clear perspective, ambient light, hand-painted scenic texture, daily-life locations, and a setting that characters could naturally inhabit."
+    },
+    {
+      "id": "context-liminal-space",
+      "stage": "context",
+      "ja": "リミナルスペース",
+      "zh": "Liminal Space / 阈限空间",
+      "romaji": "riminaru supeesu",
+      "description_zh": "以空旷过渡空间为核心，如无人走廊、商场、泳池或学校夜景，熟悉却不自然，带静止和失落感。",
+      "cues": [
+        "空旷空间",
+        "无人场所",
+        "过渡感",
+        "不自然熟悉"
+      ],
+      "related": [
+        "被写界深度",
+        "低彩度"
+      ],
+      "prompt_en": "Use liminal-space staging with empty transitional places, familiar but wrong architecture, quiet corridors or pools, still air, sparse objects, and an unsettling sense of waiting."
+    },
+    {
+      "id": "context-dada-collage",
+      "stage": "context",
+      "ja": "ダダ・コラージュ",
+      "zh": "Dada Collage / 达达拼贴",
+      "romaji": "dada koraaju",
+      "description_zh": "用报纸、剪贴图片、错位文字和荒诞排版组成画面，强调反秩序、碎片感和不合逻辑的组合。",
+      "cues": [
+        "报纸剪贴",
+        "错位文字",
+        "荒诞排版",
+        "碎片组合"
+      ],
+      "related": [
+        "コピー誌・ゼロックス風",
+        "ポスター風"
+      ],
+      "prompt_en": "Use Dada collage composition with newspaper fragments, cut-out images, mismatched typography, absurd placement, rough pasted edges, and deliberately anti-order visual logic."
+    },
+    {
+      "id": "context-sticker-bomb",
+      "stage": "context",
+      "ja": "ステッカーボム",
+      "zh": "Sticker Bomb / 贴纸轰炸风",
+      "romaji": "sutekkaa bomu",
+      "description_zh": "大量贴纸、标志、小图案和文字围绕主体堆叠，画面像滑板、行李箱或街头墙面一样密集。",
+      "cues": [
+        "大量贴纸",
+        "小图案",
+        "街头感",
+        "高密度装饰"
+      ],
+      "related": [
+        "デコラ",
+        "レトロポップ"
+      ],
+      "prompt_en": "Use sticker-bomb composition with many overlapping stickers, small icons, labels, logos, doodles, and street-culture graphics densely surrounding the main subject."
+    },
+    {
+      "id": "context-designer-toy",
+      "stage": "context",
+      "ja": "デザイナートイ",
+      "zh": "Designer Toy / 设计师玩具风",
+      "romaji": "dezainaa toi",
+      "description_zh": "把角色处理成收藏潮玩或搪胶玩具，比例圆润、材质光滑、造型简化，并带摆拍或商品展示感。",
+      "cues": [
+        "潮玩比例",
+        "搪胶质感",
+        "圆润造型",
+        "收藏品展示"
+      ],
+      "related": [
+        "デフォルメ",
+        "2.5D風"
+      ],
+      "prompt_en": "Use designer-toy presentation with rounded collectible proportions, smooth vinyl-like material, simplified sculptural forms, clean product-display lighting, and playful art-toy presence."
     },
     {
       "id": "mood-seiryoukan",
@@ -1857,6 +2256,557 @@
         "くすみカラー"
       ],
       "prompt_en": "Use retro-pop styling inspired by old advertisements, halftone print textures, limited palettes, warm gray colors, bold shapes, and geometric decoration."
+    },
+    {
+      "id": "mood-hachijuu-nendai-anime-fuu",
+      "stage": "mood",
+      "ja": "80年代アニメ風",
+      "zh": "80年代动画风",
+      "romaji": "hachijuu-nendai anime-fuu",
+      "description_zh": "模拟80年代手绘赛璐璐动画和OVA气质，常见粗细明确的线条、低饱和胶片色、硬边阴影和手绘背景。",
+      "cues": [
+        "赛璐璐感",
+        "胶片色",
+        "硬边阴影",
+        "手绘背景"
+      ],
+      "related": [
+        "セル塗り",
+        "フィルム感"
+      ],
+      "prompt_en": "Use 1980s anime styling with hand-painted cel animation feel, clear line work, slightly muted film colors, hard cel shadows, analog texture, and classic OVA-era atmosphere."
+    },
+    {
+      "id": "mood-kyuujuu-nendai-ova-fuu",
+      "stage": "mood",
+      "ja": "90年代OVA風",
+      "zh": "90年代OVA风",
+      "romaji": "kyuujuu-nendai OVA-fuu",
+      "description_zh": "强调90年代美少女动画与OVA质感，大眼高光、分块发丝、清晰赛璐璐阴影、浓郁胶片扫描感和戏剧构图。",
+      "cues": [
+        "大眼高光",
+        "分块发丝",
+        "OVA感",
+        "胶片扫描"
+      ],
+      "related": [
+        "美少女系",
+        "セル塗り"
+      ],
+      "prompt_en": "Use 1990s OVA styling with large glossy anime eyes, chunked hair shapes, crisp cel shading, dramatic composition, saturated but analog-feeling colors, and subtle film-scan texture."
+    },
+    {
+      "id": "mood-mahou-shoujo",
+      "stage": "mood",
+      "ja": "魔法少女",
+      "zh": "魔法少女风",
+      "romaji": "mahou shoujo",
+      "description_zh": "以变身感、星月宝石、法杖、蝴蝶结、闪光效果和明亮正义感构成的奇幻少女审美。",
+      "cues": [
+        "变身感",
+        "星月宝石",
+        "法杖",
+        "闪光"
+      ],
+      "related": [
+        "ゆめかわいい",
+        "キャンディカラー"
+      ],
+      "prompt_en": "Use magical-girl styling with transformation energy, star and moon motifs, jewels, ribbons, wands, sparkling effects, bright heroic mood, and decorative fantasy costume design."
+    },
+    {
+      "id": "mood-meka-haado-saafesu",
+      "stage": "mood",
+      "ja": "メカ・ハードサーフェス",
+      "zh": "机甲 / 硬表面风",
+      "romaji": "meka haado-saafesu",
+      "description_zh": "强调机甲、装甲、机械分件、硬表面材质、工业结构和科幻设定图般的精密设计感。",
+      "cues": [
+        "机甲",
+        "装甲分件",
+        "硬表面",
+        "工业结构"
+      ],
+      "related": [
+        "サイバーパンク",
+        "設定画"
+      ],
+      "prompt_en": "Use mecha and hard-surface styling with armored panels, mechanical joints, industrial structure, precise sci-fi design language, readable silhouettes, and material-rich metal surfaces."
+    },
+    {
+      "id": "mood-youkai-kaijuu-dezain",
+      "stage": "mood",
+      "ja": "妖怪・怪獣デザイン",
+      "zh": "妖怪 / 怪兽设计风",
+      "romaji": "youkai kaijuu dezain",
+      "description_zh": "面向妖怪、怪兽或异形角色设计，强调非人轮廓、生物结构、民俗符号、压迫感和可识别特征。",
+      "cues": [
+        "非人轮廓",
+        "生物结构",
+        "民俗符号",
+        "压迫感"
+      ],
+      "related": [
+        "和風ファンタジー",
+        "ダークファンタジー"
+      ],
+      "prompt_en": "Use youkai or kaijuu design styling with non-human silhouettes, creature anatomy, folklore motifs, intimidating presence, distinct readable traits, and fantasy-monster visual logic."
+    },
+    {
+      "id": "mood-rorita-fasshon",
+      "stage": "mood",
+      "ja": "ロリータファッション",
+      "zh": "Lolita服饰风",
+      "romaji": "rorita fasshon",
+      "description_zh": "以洛丽塔服饰体系为核心，强调蕾丝、荷叶边、蝴蝶结、蓬裙、洋馆感和甜美或古典的精致装饰。",
+      "cues": [
+        "蕾丝",
+        "荷叶边",
+        "蝴蝶结",
+        "蓬裙"
+      ],
+      "related": [
+        "ゴシック",
+        "ゆめかわいい"
+      ],
+      "prompt_en": "Use Lolita fashion styling with lace, frills, bows, bell-shaped skirts, delicate accessories, ornate fabric detail, and either sweet, gothic, or classical elegance."
+    },
+    {
+      "id": "mood-ukiyo-e-anime-fuu",
+      "stage": "mood",
+      "ja": "浮世絵アニメ風",
+      "zh": "浮世绘动漫风",
+      "romaji": "ukiyo-e anime-fuu",
+      "description_zh": "把浮世绘版画语言与动漫角色结合，强调平面构图、强轮廓、云纹波纹、限定色盘和日本传统装饰。",
+      "cues": [
+        "版画感",
+        "平面构图",
+        "云纹波纹",
+        "限定色盘"
+      ],
+      "related": [
+        "和風ファンタジー",
+        "限定パレット"
+      ],
+      "prompt_en": "Use ukiyo-e anime fusion styling with flat woodblock-print composition, bold contours, traditional Japanese wave or cloud motifs, limited colors, decorative patterning, and stylized character shapes."
+    },
+    {
+      "id": "mood-vaporwave",
+      "stage": "mood",
+      "ja": "ヴェイパーウェイヴ",
+      "zh": "Vaporwave / 蒸汽波",
+      "romaji": "veipaaweivu",
+      "description_zh": "粉紫青色调、旧电脑界面、古典雕像、商场怀旧和冷感消费符号构成的互联网复古梦境。",
+      "cues": [
+        "粉紫青",
+        "旧电脑界面",
+        "古典雕像",
+        "商场怀旧"
+      ],
+      "related": [
+        "ネオンカラー",
+        "レトロポップ"
+      ],
+      "prompt_en": "Use vaporwave styling with pink, purple, and cyan colors, old computer UI, mall nostalgia, classical statue motifs, glossy grids, and cool consumer-culture melancholy."
+    },
+    {
+      "id": "mood-frutiger-aero",
+      "stage": "mood",
+      "ja": "フルティガーエアロ",
+      "zh": "Frutiger Aero",
+      "romaji": "furutigaa aero",
+      "description_zh": "2000年代透明玻璃UI、水滴、蓝天、草地、白色塑料和清洁科技感混合，像早期数码乌托邦。",
+      "cues": [
+        "玻璃UI",
+        "水滴",
+        "蓝天草地",
+        "清洁科技"
+      ],
+      "related": [
+        "透明感",
+        "高明度"
+      ],
+      "prompt_en": "Use Frutiger Aero styling with glossy transparent UI shapes, water droplets, blue skies, green grass, clean white technology, soft reflections, and optimistic early-2000s digital freshness."
+    },
+    {
+      "id": "mood-cassette-futurism",
+      "stage": "mood",
+      "ja": "カセットフューチャリズム",
+      "zh": "Cassette Futurism / 磁带未来主义",
+      "romaji": "kasetto fyuucharizumu",
+      "description_zh": "70到90年代想象中的未来科技，包含CRT屏幕、磁带、实体按钮、控制台、粗塑料和冷战科幻气质。",
+      "cues": [
+        "CRT屏幕",
+        "磁带",
+        "实体按钮",
+        "复古控制台"
+      ],
+      "related": [
+        "フィルム感",
+        "低彩度"
+      ],
+      "prompt_en": "Use cassette-futurist styling with CRT screens, cassette decks, chunky buttons, analog control panels, beige or dark plastic hardware, and retro future science-fiction atmosphere."
+    },
+    {
+      "id": "mood-analog-horror",
+      "stage": "mood",
+      "ja": "アナログホラー",
+      "zh": "Analog Horror / 模拟恐怖",
+      "romaji": "anarogu horaa",
+      "description_zh": "像旧电视、VHS或公共频道警报画面，低清扫描线、磁带噪声、异常字幕和安静的不安感明显。",
+      "cues": [
+        "VHS噪声",
+        "扫描线",
+        "警报字幕",
+        "低清恐怖"
+      ],
+      "related": [
+        "フィルム感",
+        "低明度"
+      ],
+      "prompt_en": "Use analog-horror styling with VHS noise, scanlines, old broadcast graphics, warning text, low-resolution darkness, quiet unease, and distorted public-access television atmosphere."
+    },
+    {
+      "id": "mood-weirdcore",
+      "stage": "mood",
+      "ja": "ウィアードコア",
+      "zh": "Weirdcore",
+      "romaji": "wiaado koa",
+      "description_zh": "低质照片、早期互联网编辑、孤立物体、奇怪文字和熟悉但不对劲的场景构成的诡异网络梦感。",
+      "cues": [
+        "低质照片感",
+        "奇怪文字",
+        "早期互联网",
+        "不对劲场景"
+      ],
+      "related": [
+        "リミナルスペース",
+        "夢幻可爱系"
+      ],
+      "prompt_en": "Use weirdcore styling with low-quality digital-photo feeling, early-internet edits, strange text, isolated objects, familiar but wrong spaces, and an uncanny dreamlike mood."
+    },
+    {
+      "id": "mood-dreamcore",
+      "stage": "mood",
+      "ja": "ドリームコア",
+      "zh": "Dreamcore",
+      "romaji": "doriimu koa",
+      "description_zh": "像梦里的儿童记忆或空旷幻想场景，柔雾、漂浮物、过亮色彩和不合逻辑的空间带来朦胧感。",
+      "cues": [
+        "梦境空间",
+        "柔雾",
+        "漂浮物",
+        "儿童记忆"
+      ],
+      "related": [
+        "ソフトフォーカス",
+        "ゆめかわいい"
+      ],
+      "prompt_en": "Use dreamcore styling with hazy childhood-memory spaces, soft fog, floating objects, too-bright colors, gentle surreal logic, and a quiet feeling of being inside a dream."
+    },
+    {
+      "id": "mood-y2k-futurism",
+      "stage": "mood",
+      "ja": "Y2Kフューチャリズム",
+      "zh": "Y2K Futurism / 千禧未来风",
+      "romaji": "Y2K fyuucharizumu",
+      "description_zh": "银色塑料、透明材质、椭圆界面、早期3D和千禧年代电子广告感，未来感明亮又带复古数码味。",
+      "cues": [
+        "银色塑料",
+        "透明材质",
+        "椭圆UI",
+        "早期3D"
+      ],
+      "related": [
+        "2.5D風",
+        "透明感"
+      ],
+      "prompt_en": "Use Y2K futurist styling with silver plastic, translucent materials, oval UI shapes, early 3D graphics, glossy electronics, and bright turn-of-the-millennium tech optimism."
+    },
+    {
+      "id": "mood-heisei-retro",
+      "stage": "mood",
+      "ja": "平成レトロ",
+      "zh": "平成复古",
+      "romaji": "heisei retoro",
+      "description_zh": "平成时代女童玩具、贴纸、翻盖手机、透明塑料、小杂志排版和可爱电子产品构成的怀旧流行感。",
+      "cues": [
+        "翻盖手机",
+        "透明塑料",
+        "女童玩具",
+        "小杂志排版"
+      ],
+      "related": [
+        "キャンディカラー",
+        "レトロポップ"
+      ],
+      "prompt_en": "Use Heisei-retro styling with flip phones, translucent plastic toys, sticker sheets, cute electronics, small magazine layouts, and playful Japanese pop nostalgia."
+    },
+    {
+      "id": "mood-fairy-kei",
+      "stage": "mood",
+      "ja": "フェアリー系",
+      "zh": "Fairy Kei",
+      "romaji": "fearii-kei",
+      "description_zh": "以80年代玩具、粉彩、云朵、彩虹、毛绒质感和儿童房般的甜软复古构成。",
+      "cues": [
+        "粉彩玩具",
+        "云朵彩虹",
+        "毛绒质感",
+        "甜软复古"
+      ],
+      "related": [
+        "パステルカラー",
+        "ゆめかわいい"
+      ],
+      "prompt_en": "Use Fairy Kei styling with pastel 1980s toy colors, clouds, rainbows, plush textures, soft childish accessories, and sweet nostalgic bedroom-like cuteness."
+    },
+    {
+      "id": "mood-decora",
+      "stage": "mood",
+      "ja": "デコラ",
+      "zh": "Decora / 原宿装饰系",
+      "romaji": "dekora",
+      "description_zh": "大量发夹、贴纸、彩色配饰、塑料饰品和多层图案堆叠，形成高密度、快乐、原宿街头感。",
+      "cues": [
+        "大量发夹",
+        "彩色配饰",
+        "多层图案",
+        "原宿街头"
+      ],
+      "related": [
+        "キャンディカラー",
+        "ステッカーボム"
+      ],
+      "prompt_en": "Use Decora styling with many hair clips, colorful plastic accessories, layered patterns, sticker-like details, playful clutter, and bright Harajuku street-fashion energy."
+    },
+    {
+      "id": "mood-visual-kei",
+      "stage": "mood",
+      "ja": "ヴィジュアル系",
+      "zh": "Visual Kei",
+      "romaji": "vijuaru-kei",
+      "description_zh": "华丽摇滚舞台审美，夸张发型、浓重妆容、皮革蕾丝、哥特朋克元素和戏剧化姿态明显。",
+      "cues": [
+        "夸张发型",
+        "舞台妆",
+        "皮革蕾丝",
+        "华丽摇滚"
+      ],
+      "related": [
+        "ゴシック",
+        "高頭身"
+      ],
+      "prompt_en": "Use Visual Kei styling with dramatic hair, stage makeup, leather and lace, gothic punk details, ornate rock costumes, and theatrical performance poses."
+    },
+    {
+      "id": "mood-kimo-kawaii",
+      "stage": "mood",
+      "ja": "キモかわいい",
+      "zh": "Kimo-kawaii / 怪可爱",
+      "romaji": "kimo-kawaii",
+      "description_zh": "把怪异、黏液、异物或不舒服的形状萌化处理，既可爱又微妙恶心，形成强烈反差。",
+      "cues": [
+        "怪异萌化",
+        "黏液感",
+        "异物感",
+        "可爱反差"
+      ],
+      "related": [
+        "病みかわいい",
+        "妖怪・怪獣デザイン"
+      ],
+      "prompt_en": "Use kimo-kawaii styling with cute but unsettling shapes, soft weird creatures or objects, slime-like details, playful disgust, and a deliberate contrast between adorable and creepy."
+    },
+    {
+      "id": "mood-menhera-kei",
+      "stage": "mood",
+      "ja": "メンヘラ系",
+      "zh": "Menhera Kei",
+      "romaji": "menhera-kei",
+      "description_zh": "粉紫病态可爱服饰与医疗符号结合，常见创可贴、药片、针筒图案、泪眼和脆弱情绪。",
+      "cues": [
+        "医疗符号",
+        "创可贴",
+        "粉紫病态",
+        "脆弱情绪"
+      ],
+      "related": [
+        "病みかわいい",
+        "パステルカラー"
+      ],
+      "prompt_en": "Use Menhera Kei styling with pastel medical motifs, bandages, pill or syringe symbols, fragile expressions, soft purple-pink colors, and cute but emotionally unstable fashion cues."
+    },
+    {
+      "id": "mood-art-brut-outsider",
+      "stage": "mood",
+      "ja": "アール・ブリュット / アウトサイダーアート",
+      "zh": "Art Brut / Outsider Art / 原生艺术",
+      "romaji": "aaru buryutto autosaidaa aato",
+      "description_zh": "非学院派、稚拙而强烈的图像语言，常有重复线条、私人符号、歪斜比例和直接的手工痕迹。",
+      "cues": [
+        "稚拙线条",
+        "私人符号",
+        "重复图案",
+        "非学院感"
+      ],
+      "related": [
+        "ラフ線",
+        "紙の質感"
+      ],
+      "prompt_en": "Use Art Brut or outsider-art styling with raw hand-made marks, naive proportions, repeated personal symbols, uneven lines, direct emotion, and non-academic visual intensity."
+    },
+    {
+      "id": "mood-lowbrow-pop-surrealism",
+      "stage": "mood",
+      "ja": "ロウブロウ / ポップシュルレアリスム",
+      "zh": "Lowbrow / Pop Surrealism",
+      "romaji": "rouburou poppu shururearisumu",
+      "description_zh": "地下漫画、玩具、街头文化和怪诞超现实混合，画面通常明亮、滑稽、华丽但带黑色幽默。",
+      "cues": [
+        "地下漫画",
+        "怪诞玩具",
+        "黑色幽默",
+        "流行超现实"
+      ],
+      "related": [
+        "デザイナートイ",
+        "キモかわいい"
+      ],
+      "prompt_en": "Use lowbrow pop-surreal styling with underground-comic energy, toy-like exaggeration, bright polished surfaces, strange humor, street-culture details, and surreal cartoon weirdness."
+    },
+    {
+      "id": "mood-constructivism",
+      "stage": "mood",
+      "ja": "構成主義",
+      "zh": "Constructivism / 构成主义",
+      "romaji": "kousei shugi",
+      "description_zh": "红黑白几何、斜向构图、工业字体、强对角线和宣传海报节奏，画面有机械化的革命感。",
+      "cues": [
+        "红黑白",
+        "斜向几何",
+        "工业字体",
+        "宣传海报"
+      ],
+      "related": [
+        "ポスター風",
+        "限定パレット"
+      ],
+      "prompt_en": "Use constructivist styling with red, black, and white geometry, strong diagonals, industrial typography, propaganda-poster rhythm, and bold mechanical graphic structure."
+    },
+    {
+      "id": "mood-suprematism",
+      "stage": "mood",
+      "ja": "シュプレマティスム",
+      "zh": "Suprematism / 至上主义",
+      "romaji": "shupurematizumu",
+      "description_zh": "方形、圆形、十字和色块漂浮在简洁空间中，强调抽象几何、极简张力和非叙事构图。",
+      "cues": [
+        "漂浮几何",
+        "极简空间",
+        "抽象色块",
+        "非叙事"
+      ],
+      "related": [
+        "限定パレット",
+        "ポスター風"
+      ],
+      "prompt_en": "Use suprematist styling with floating squares, circles, crosses, and color blocks in clean space, abstract geometric tension, minimal composition, and reduced narrative detail."
+    },
+    {
+      "id": "mood-metaphysical-painting",
+      "stage": "mood",
+      "ja": "形而上絵画",
+      "zh": "Metaphysical Painting / 形而上绘画",
+      "romaji": "keijijou kaiga",
+      "description_zh": "空旷广场、长阴影、古典雕像、静止建筑和不合时宜的物体组合，带清醒梦般的诡异安静。",
+      "cues": [
+        "空旷广场",
+        "长阴影",
+        "古典雕像",
+        "诡异静止"
+      ],
+      "related": [
+        "リミナルスペース",
+        "低彩度"
+      ],
+      "prompt_en": "Use metaphysical-painting styling with empty plazas, long shadows, classical statues, still architecture, misplaced objects, and a calm uncanny dreamlike silence."
+    },
+    {
+      "id": "mood-arte-povera",
+      "stage": "mood",
+      "ja": "アルテ・ポーヴェラ",
+      "zh": "Arte Povera / 贫穷艺术",
+      "romaji": "arute poovera",
+      "description_zh": "粗糙材料、麻布、木头、铁锈、泥土、石块和临时装置感构成，故意减少精致装饰。",
+      "cues": [
+        "粗糙材料",
+        "麻布木头",
+        "铁锈泥土",
+        "临时装置"
+      ],
+      "related": [
+        "紙の質感",
+        "低彩度"
+      ],
+      "prompt_en": "Use Arte Povera styling with humble rough materials, burlap, wood, rust, dirt, stone, temporary installation feeling, and restrained anti-luxury texture around the subject."
+    },
+    {
+      "id": "mood-mono-ha",
+      "stage": "mood",
+      "ja": "もの派",
+      "zh": "Mono-ha / 物派",
+      "romaji": "mono-ha",
+      "description_zh": "让石、木、铁、玻璃、水等材料以极简方式相互并置，强调物体关系、重量、空间和冷静沉默。",
+      "cues": [
+        "原材料",
+        "极简并置",
+        "重量感",
+        "冷静空间"
+      ],
+      "related": [
+        "低彩度",
+        "空気感"
+      ],
+      "prompt_en": "Use Mono-ha-inspired styling with minimal arrangements of stone, wood, metal, glass, or water, emphasizing material presence, weight, quiet space, and relationships between objects."
+    },
+    {
+      "id": "mood-gutai",
+      "stage": "mood",
+      "ja": "具体派",
+      "zh": "Gutai / 具体派",
+      "romaji": "gutai",
+      "description_zh": "强调动作、破坏和材料反应，画面可出现滴洒、撕裂、涂抹、爆裂色块和身体介入的痕迹。",
+      "cues": [
+        "动作痕迹",
+        "滴洒涂抹",
+        "撕裂",
+        "材料反应"
+      ],
+      "related": [
+        "ブラシ塗り",
+        "ラフ線"
+      ],
+      "prompt_en": "Use Gutai-inspired styling with visible action marks, splashes, smears, torn surfaces, burst color fields, material reactions, and energetic evidence of physical making."
+    },
+    {
+      "id": "mood-afrofuturism",
+      "stage": "mood",
+      "ja": "アフロフューチャリズム",
+      "zh": "Afrofuturism / 非洲未来主义",
+      "romaji": "afuro fyuucharizumu",
+      "description_zh": "把非洲文化、未来科技、神话、宇宙感、金属纹样和历史想象结合，形成庄严而科幻的视觉气质。",
+      "cues": [
+        "非洲纹样",
+        "未来科技",
+        "宇宙感",
+        "金属装饰"
+      ],
+      "related": [
+        "サイバーパンク",
+        "ダークファンタジー"
+      ],
+      "prompt_en": "Use Afrofuturist styling with African cultural patterns, futuristic technology, mythic and cosmic imagery, metallic ornament, regal silhouettes, and science-fiction worldbuilding."
     }
   ]
 }
