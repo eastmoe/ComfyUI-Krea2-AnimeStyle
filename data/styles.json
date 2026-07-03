@@ -70,7 +70,7 @@
         "美少女系",
         "低頭身"
       ],
-      "prompt_en": "A cute, approachable style built around soft expressions, rounded shapes, large eyes, and a low-aggression character presence."
+      "prompt_en": "Use cute, approachable styling with soft expressions, rounded shapes, large eyes, simplified facial details, gentle body language, and a low-aggression character presence."
     },
     {
       "id": "form-bishoujo-kei",
@@ -89,7 +89,7 @@
         "ギャルゲ塗り",
         "宝石目"
       ],
-      "prompt_en": "A style centered on beautiful, idealized young female characters, often featuring large expressive eyes, delicate features, and a polished or dreamy look."
+      "prompt_en": "Use beautiful, idealized young female character styling with large expressive eyes, delicate facial features, refined hair details, polished skin, and a dreamy light-novel finish."
     },
     {
       "id": "form-otome-muke",
@@ -108,7 +108,7 @@
         "少女漫画風",
         "透明感"
       ],
-      "prompt_en": "A romantic, delicate style aimed at otome or shoujo sensibilities, often using slender lines, elegant eyes, and a soft emotional atmosphere."
+      "prompt_en": "Use romantic, delicate otome or shoujo styling with slender lines, elegant eyes, longer lashes, graceful facial proportions, and a soft emotional atmosphere."
     },
     {
       "id": "form-shounen-manga-fuu",
@@ -127,7 +127,7 @@
         "太線",
         "硬い影"
       ],
-      "prompt_en": "A dynamic manga-influenced style that emphasizes action, strong expressions, bold silhouettes, and energetic visual rhythm."
+      "prompt_en": "Use dynamic shounen manga styling with action-driven poses, strong expressions, bold silhouettes, energetic visual rhythm, and clear readable movement lines."
     },
     {
       "id": "form-seinen-manga-fuu",
@@ -146,7 +146,7 @@
         "厚塗り",
         "低明度"
       ],
-      "prompt_en": "A more mature manga style with relatively realistic proportions, restrained expressions, heavier structure, and stronger tonal weight."
+      "prompt_en": "Use mature seinen manga styling with relatively realistic proportions, restrained expressions, clearer bone structure, heavier shadows, and stronger tonal weight."
     },
     {
       "id": "form-deforume",
@@ -165,7 +165,7 @@
         "SDキャラ",
         "低頭身"
       ],
-      "prompt_en": "A stylized deformation approach that simplifies or exaggerates anatomy, facial features, and motion to make a character more iconic and readable."
+      "prompt_en": "Use stylized deformation that simplifies or exaggerates anatomy, facial features, and motion so the character reads as iconic, expressive, and easy to understand."
     },
     {
       "id": "form-sd-kyara",
@@ -184,7 +184,7 @@
         "デフォルメ",
         "低頭身"
       ],
-      "prompt_en": "A super-deformed character style with a large head, small body, simplified limbs, and highly symbolic facial expressions."
+      "prompt_en": "Use super-deformed character styling with a large head, small body, simplified limbs, symbolic facial expressions, and compact toy-like cuteness."
     },
     {
       "id": "form-teitoushin",
@@ -203,7 +203,7 @@
         "萌え系",
         "SDキャラ"
       ],
-      "prompt_en": "A low head-to-body proportion style that makes characters appear cute, compact, friendly, and suitable for icons or merchandise."
+      "prompt_en": "Use low head-to-body proportions that make characters feel cute, compact, friendly, readable at small size, and suitable for icons or merchandise."
     },
     {
       "id": "form-koutoushin",
@@ -222,7 +222,7 @@
         "アイドル風",
         "立ち絵"
       ],
-      "prompt_en": "A tall-proportion character style with elongated legs and a more mature silhouette, often used for fashion, idol, or game character artwork."
+      "prompt_en": "Use tall-proportion character styling with elongated legs, a mature silhouette, elegant posture, and fashion, idol, or game character presentation."
     },
     {
       "id": "form-yougao",
@@ -241,7 +241,7 @@
         "萌え系",
         "低頭身"
       ],
-      "prompt_en": "A facial appearance that looks notably youthful or childlike, with soft, rounded contours, a small chin, and an innocent expression."
+      "prompt_en": "Use youthful facial appearance with soft rounded contours, a small chin, simplified nose and mouth, bright eyes, and an innocent expression."
     },
     {
       "id": "form-otonagao",
@@ -260,7 +260,7 @@
         "青年漫画風",
         "高頭身"
       ],
-      "prompt_en": "A mature facial appearance with clearer bone structure, a more defined nose or jaw, and less exaggerated eye proportions."
+      "prompt_en": "Use mature facial appearance with clearer bone structure, a defined nose or jaw, restrained exaggeration, and less oversized eye proportions."
     },
     {
       "id": "form-tsurime",
@@ -279,7 +279,7 @@
         "猫目",
         "三白眼"
       ],
-      "prompt_en": "An upturned eye shape that gives a character a sharp, confident, proud, or cool impression."
+      "prompt_en": "Use upturned eye shapes with lifted outer corners to give the character a sharp, confident, proud, cool, or slightly challenging impression."
     },
     {
       "id": "form-tareme",
@@ -298,7 +298,7 @@
         "ジト目",
         "幼顔"
       ],
-      "prompt_en": "A downturned eye shape that makes a character feel gentle, sleepy, innocent, relaxed, or emotionally soft."
+      "prompt_en": "Use downturned eye shapes with softened outer corners to make the character feel gentle, sleepy, innocent, relaxed, or emotionally soft."
     },
     {
       "id": "form-nekome",
@@ -317,7 +317,7 @@
         "つり目",
         "アイライン"
       ],
-      "prompt_en": "A cat-like eye shape with a lifted outer corner and narrow, alluring sharpness, often used for sly or charming characters."
+      "prompt_en": "Use cat-like eye shapes with lifted outer corners, narrow alluring sharpness, bright highlights, and a sly or charming character impression."
     },
     {
       "id": "form-houseki-me",
@@ -336,7 +336,7 @@
         "美少女系",
         "ハイライト"
       ],
-      "prompt_en": "An eye-rendering style with layered gradients, sparkles, patterns, and multiple highlights that make the iris look jewel-like."
+      "prompt_en": "Use jewel-like eye rendering with layered gradients, sparkles, iris patterns, multiple highlights, and glossy depth that makes the eyes feel luminous."
     },
     {
       "id": "form-jitome",
@@ -355,7 +355,7 @@
         "たれ目",
         "三白眼"
       ],
-      "prompt_en": "A half-lidded or flat-eyed expression that suggests boredom, sarcasm, tiredness, suspicion, or deadpan irritation."
+      "prompt_en": "Use half-lidded or flat-eyed expressions with lowered eyelids and minimal facial movement to suggest boredom, sarcasm, tiredness, suspicion, or deadpan irritation."
     },
     {
       "id": "form-sanpaku-gan",
@@ -374,7 +374,7 @@
         "つり目",
         "病みかわいい"
       ],
-      "prompt_en": "An eye type where white space is visible on three sides of the iris, creating an intense, tired, dangerous, or unsettling mood."
+      "prompt_en": "Use sanpaku eye shapes where white space is visible on three sides of the iris, creating an intense, tired, dangerous, or unsettling mood."
     },
     {
       "id": "line-senga",
@@ -393,7 +393,7 @@
         "清書線",
         "線の強弱"
       ],
-      "prompt_en": "The line-art layer that defines contours, structure, rhythm, and readability before or alongside color and shading."
+      "prompt_en": "Use line art that defines contours, structure, rhythm, and readability before or alongside color and shading, with clear separation of major forms."
     },
     {
       "id": "line-seisho-sen",
@@ -412,7 +412,7 @@
         "アニメ塗り",
         "Live2D用立ち絵"
       ],
-      "prompt_en": "A clean finalized line style with stable, readable, often closed contours suitable for animation coloring, model sheets, and Live2D work."
+      "prompt_en": "Use clean finalized line work with stable, readable, often closed contours suitable for animation coloring, model sheets, Live2D parts, and production-ready designs."
     },
     {
       "id": "line-futo-sen",
@@ -431,7 +431,7 @@
         "少年漫画風",
         "アニメ塗り"
       ],
-      "prompt_en": "A thick-line style that strengthens silhouettes, separates the character from the background, and creates a bold cartoon or anime feel."
+      "prompt_en": "Use thick line work that strengthens silhouettes, separates the character from the background, clarifies major shapes, and creates a bold cartoon or anime feel."
     },
     {
       "id": "line-hoso-sen",
@@ -450,7 +450,7 @@
         "透明感塗り",
         "乙女向け"
       ],
-      "prompt_en": "A fine-line style that feels light, delicate, precise, and well suited to transparent, watercolor, shoujo, or light-novel aesthetics."
+      "prompt_en": "Use fine line work that feels light, delicate, precise, and well suited to transparent, watercolor, shoujo, or light-novel aesthetics."
     },
     {
       "id": "line-sen-no-kyoujaku",
@@ -469,7 +469,7 @@
         "線画",
         "清書線"
       ],
-      "prompt_en": "The controlled variation of line weight, such as thicker outer contours and lighter inner details, used to create volume and rhythm."
+      "prompt_en": "Use controlled line-weight variation with thicker outer contours, lighter inner details, tapered strokes, and rhythmic accents that create volume and visual flow."
     },
     {
       "id": "line-iro-toresu",
@@ -488,7 +488,7 @@
         "細線",
         "透明感"
       ],
-      "prompt_en": "A colored-line technique where black line art is replaced with darker local colors so the drawing feels softer and more integrated."
+      "prompt_en": "Use colored line art where black outlines are replaced with darker local colors so the drawing feels softer, more integrated, and less graphic."
     },
     {
       "id": "line-togire-sen",
@@ -507,7 +507,7 @@
         "ラフ線",
         "水彩塗り"
       ],
-      "prompt_en": "An outline style where lines are intentionally broken or sketchy rather than clean and continuous, giving the artwork a light, hand-drawn, and airy feel."
+      "prompt_en": "Use intentionally broken or sketchy outlines instead of clean continuous lines, giving the artwork a light, hand-drawn, airy, and slightly unfinished feeling."
     },
     {
       "id": "line-sen-nashi",
@@ -526,7 +526,7 @@
         "厚塗り",
         "ブラシ塗り"
       ],
-      "prompt_en": "A lineless style where forms are separated mainly by color shapes, value contrast, and edges rather than visible outlines."
+      "prompt_en": "Use lineless construction where forms are separated mainly by color shapes, value contrast, soft edges, and silhouette clarity rather than visible outlines."
     },
     {
       "id": "line-rafu-sen",
@@ -545,7 +545,7 @@
         "設定画",
         "途切れ線"
       ],
-      "prompt_en": "A rough sketch-line style that preserves searching strokes, hairy edges, or multiple construction lines for a loose conceptual feel."
+      "prompt_en": "Use rough sketch-line styling that preserves searching strokes, hairy edges, construction marks, and loose conceptual energy without losing the main silhouette."
     },
     {
       "id": "coloring-anime-nuri",
@@ -564,7 +564,7 @@
         "セル塗り",
         "硬い影"
       ],
-      "prompt_en": "A crisp anime-style coloring method with clear color regions, hard-edged shadows, limited value steps, and strong readability."
+      "prompt_en": "Use crisp anime-style coloring with clear color regions, hard-edged shadow shapes, limited value steps, clean highlights, and strong readability."
     },
     {
       "id": "coloring-seru-nuri",
@@ -583,7 +583,7 @@
         "アニメ塗り",
         "平塗り"
       ],
-      "prompt_en": "A cel-shading approach with flat base colors, clearly separated shadow blocks, and minimal blending for a traditional animation-like finish."
+      "prompt_en": "Use cel shading with flat base colors, clearly separated shadow blocks, minimal blending, sharp highlight placement, and a traditional animation-like finish."
     },
     {
       "id": "coloring-hira-nuri",
@@ -602,7 +602,7 @@
         "設定画",
         "セル塗り"
       ],
-      "prompt_en": "A flat-coloring method that mainly applies local colors with little or no shading, often used for color designs or simple presentation art."
+      "prompt_en": "Use flat coloring that mainly applies clean local colors with little or no shading, making the design readable for color sheets or simple presentation art."
     },
     {
       "id": "coloring-gyaruge-nuri",
@@ -621,7 +621,7 @@
         "美少女系",
         "CG塗り"
       ],
-      "prompt_en": "A visual-novel or bishoujo-game coloring style that combines cel-like shadow shapes with soft gradients, polished skin, and detailed eye or hair highlights."
+      "prompt_en": "Use visual-novel or bishoujo-game coloring that combines cel-like shadow shapes with soft gradients, polished skin, glossy hair, and detailed eye highlights."
     },
     {
       "id": "coloring-cg-nuri",
@@ -640,7 +640,7 @@
         "グラデ塗り",
         "ギャルゲ塗り"
       ],
-      "prompt_en": "A digital coloring style that uses airbrushes, soft blending, layer effects, and controlled gradients to create a polished CG illustration finish."
+      "prompt_en": "Use polished digital CG coloring with airbrushed blending, controlled gradients, subtle layer effects, glossy accents, and a smooth illustration finish."
     },
     {
       "id": "coloring-atsu-nuri",
@@ -659,7 +659,7 @@
         "線なし",
         "カードイラスト"
       ],
-      "prompt_en": "A painterly rendering method that builds volume through brushwork, color masses, and light rather than relying heavily on line art."
+      "prompt_en": "Use painterly rendering that builds volume through visible brushwork, color masses, blended edges, and light rather than relying heavily on line art."
     },
     {
       "id": "coloring-gurizaiyu-gahou",
@@ -678,7 +678,7 @@
         "厚塗り",
         "低明度"
       ],
-      "prompt_en": "A grisaille workflow that establishes value and lighting in grayscale first, then applies color on top for controlled volume and mood."
+      "prompt_en": "Use grisaille-like workflow where value and lighting feel established first, then color is layered on top for controlled volume, mood, and depth."
     },
     {
       "id": "coloring-suisai-nuri",
@@ -697,7 +697,7 @@
         "紙の質感",
         "途切れ線"
       ],
-      "prompt_en": "A coloring technique that mimics watercolor painting, characterized by translucent washes, gentle color bleeding, soft edges, and a delicate, fluid finish."
+      "prompt_en": "Use watercolor-inspired coloring with translucent washes, gentle color bleeding, soft edges, visible paper-like softness, and a delicate fluid finish."
     },
     {
       "id": "coloring-toumeikan-nuri",
@@ -716,7 +716,7 @@
         "透明感",
         "細線"
       ],
-      "prompt_en": "A translucent-feeling coloring style with high brightness, clean colors, pale cool shadows, and luminous skin or hair treatment."
+      "prompt_en": "Use translucent coloring with high brightness, clean colors, pale cool shadows, luminous skin and hair, and an airy sense of clarity."
     },
     {
       "id": "coloring-burashi-nuri",
@@ -735,7 +735,7 @@
         "厚塗り",
         "粒子感"
       ],
-      "prompt_en": "A brush-based coloring approach that leaves visible brush texture or edge variation to reduce overly smooth digital plasticity."
+      "prompt_en": "Use brush-based coloring with visible texture, edge variation, hand-painted transitions, and reduced digital smoothness to avoid a plastic finish."
     },
     {
       "id": "coloring-gurade-nuri",
@@ -754,7 +754,7 @@
         "CG塗り",
         "柔らかい影"
       ],
-      "prompt_en": "A gradient-heavy coloring method using soft transitions and airbrushed blending to make skin, hair, or fabric look rounded and smooth."
+      "prompt_en": "Use gradient-heavy coloring with soft transitions, airbrushed blending, rounded skin and hair volumes, and smooth shifts across fabric or light."
     },
     {
       "id": "coloring-posutaa-fuu",
@@ -773,7 +773,7 @@
         "限定パレット",
         "レトロポップ"
       ],
-      "prompt_en": "A poster-like illustration style with large color shapes, clear contrast, strong graphic composition, and decorative visual impact."
+      "prompt_en": "Use poster-like illustration styling with large color shapes, clear contrast, strong graphic composition, simplified shadow masses, and decorative visual impact."
     },
     {
       "id": "coloring-2-5d-fuu",
@@ -792,7 +792,7 @@
         "厚塗り",
         "カードイラスト"
       ],
-      "prompt_en": "A hybrid style between 2D anime design and 3D volume, keeping stylized characters while emphasizing lighting, material, and spatial depth."
+      "prompt_en": "Use two-and-a-half-D hybrid style between 2D anime design and 3D volume, keeping stylized characters while emphasizing lighting, material, and spatial depth."
     },
     {
       "id": "light-katai-kage",
@@ -811,7 +811,7 @@
         "アニメ塗り",
         "セル塗り"
       ],
-      "prompt_en": "The use of hard-edged shadows with clearly defined boundaries, often associated with cel shading, animation, and strong sunlight."
+      "prompt_en": "Use hard-edged shadows with clearly defined boundaries, crisp shape language, limited value steps, and a cel-shaded animation or strong-sunlight impression."
     },
     {
       "id": "light-yawarakai-kage",
@@ -830,7 +830,7 @@
         "グラデ塗り",
         "透明感塗り"
       ],
-      "prompt_en": "The use of soft, diffused shadows that shape forms without harsh boundaries, contributing to a tender, gentle, and soothing visual mood."
+      "prompt_en": "Use soft diffused shadows that shape forms without harsh boundaries, creating tender transitions, gentle volume, and a soothing visual mood."
     },
     {
       "id": "light-ochi-kage",
@@ -849,7 +849,7 @@
         "接触影",
         "逆光"
       ],
-      "prompt_en": "A cast shadow produced when one form blocks light and projects a shadow shape onto another surface, such as bangs on a face."
+      "prompt_en": "Use cast shadows where one form blocks light and projects a readable shadow shape onto another surface, such as bangs falling across a face."
     },
     {
       "id": "light-sesshoku-kage",
@@ -868,7 +868,7 @@
         "AO",
         "落ち影"
       ],
-      "prompt_en": "A compact dark area where forms touch or nearly touch, helping hair, clothing folds, and body parts feel physically connected."
+      "prompt_en": "Use compact contact shadows where forms touch or nearly touch, helping hair, clothing folds, hands, and body parts feel physically connected."
     },
     {
       "id": "light-kankyoukou",
@@ -887,7 +887,7 @@
         "寒暖差",
         "逆光"
       ],
-      "prompt_en": "Indirect light from the surrounding environment that tints shadows and helps the character belong to the scene."
+      "prompt_en": "Use indirect environmental light that softly tints shadows, connects the character to the surrounding scene, and prevents shaded areas from feeling flat."
     },
     {
       "id": "light-rimu-raito",
@@ -906,7 +906,7 @@
         "逆光",
         "ネオンカラー"
       ],
-      "prompt_en": "A rim light is a bright edge along the silhouette that separates the character from the background and adds drama or stage-like lighting."
+      "prompt_en": "Use rim lighting as a bright edge along the silhouette to separate the character from the background and add drama or stage-like lighting."
     },
     {
       "id": "light-gyakukou",
@@ -925,7 +925,7 @@
         "リムライト",
         "ブルーム"
       ],
-      "prompt_en": "Backlighting places the main light source behind the subject, making the front darker while the outline, hair, or edges glow."
+      "prompt_en": "Use backlighting with the main light source behind the subject, darkening the front while the outline, hair, or edges glow clearly."
     },
     {
       "id": "light-toppu-raito",
@@ -944,7 +944,7 @@
         "硬い影",
         "低明度"
       ],
-      "prompt_en": "Top lighting comes from above and often creates strong shadows under the brow, nose, chin, or clothing folds."
+      "prompt_en": "Use top lighting from above to create shadows under the brow, nose, chin, hair masses, and clothing folds while emphasizing vertical form."
     },
     {
       "id": "light-hairaito",
@@ -963,7 +963,7 @@
         "宝石目",
         "スペキュラー"
       ],
-      "prompt_en": "A highlight is a bright accent placed on glossy or illuminated areas such as eyes, hair, metal, leather, or wet surfaces."
+      "prompt_en": "Use bright highlights on glossy or illuminated areas such as eyes, hair, metal, leather, wet surfaces, and sharply lit edges."
     },
     {
       "id": "light-supekkyuraa",
@@ -982,7 +982,7 @@
         "ハイライト",
         "カードイラスト"
       ],
-      "prompt_en": "A specular highlight is a concentrated mirror-like reflection that communicates shiny materials such as glass, metal, leather, or wet hair."
+      "prompt_en": "Use specular highlights as concentrated mirror-like reflections that communicate shiny materials such as glass, metal, leather, glossy eyes, or wet hair."
     },
     {
       "id": "light-ao",
@@ -1001,7 +1001,7 @@
         "接触影",
         "厚塗り"
       ],
-      "prompt_en": "Ambient occlusion is a local darkening effect used in creases, contact areas, and tight gaps to strengthen the sense of volume."
+      "prompt_en": "Use ambient occlusion as local darkening in creases, contact areas, overlaps, and tight gaps to strengthen the sense of volume."
     },
     {
       "id": "light-sabusaafesu-sukyattaringu",
@@ -1020,7 +1020,7 @@
         "透明感",
         "逆光"
       ],
-      "prompt_en": "Subsurface scattering describes warm light passing through skin, ears, or fingers, creating reddish translucent edges."
+      "prompt_en": "Use subsurface scattering with warm light passing through skin, ears, fingers, or thin edges to create reddish translucent glow and softness."
     },
     {
       "id": "palette-kousaido",
@@ -1039,7 +1039,7 @@
         "キャンディカラー",
         "アイドル風"
       ],
-      "prompt_en": "A high-saturation palette uses vivid, intense colors that create strong visual impact, energy, and pop appeal."
+      "prompt_en": "Use high-saturation palette with vivid intense colors, clean hue separation, strong visual impact, energetic contrast, and pop appeal."
     },
     {
       "id": "palette-teisaido",
@@ -1058,7 +1058,7 @@
         "くすみカラー",
         "レトロポップ"
       ],
-      "prompt_en": "A low-saturation palette uses grayer, more restrained colors for a calm, mature, retro, or literary mood."
+      "prompt_en": "Use low-saturation palette with grayer restrained colors, subtle hue shifts, softened contrast, and a calm, mature, retro, or literary mood."
     },
     {
       "id": "palette-koumeido",
@@ -1077,7 +1077,7 @@
         "透明感塗り",
         "清涼感"
       ],
-      "prompt_en": "A high-value palette keeps the overall image bright, even in the shadows, producing a fresh, light, and healing impression."
+      "prompt_en": "Use high-value palette that keeps the overall image bright even in shadows, producing a fresh, light, clean, and healing impression."
     },
     {
       "id": "palette-teimeido",
@@ -1096,7 +1096,7 @@
         "ゴシック",
         "ダークファンタジー"
       ],
-      "prompt_en": "A low-value palette keeps the overall image dark, making it suitable for night scenes, gothic moods, suspense, or dark fantasy."
+      "prompt_en": "Use low-value palette that keeps the overall image dark, supporting night scenes, gothic moods, suspense, dark fantasy, and heavier atmosphere."
     },
     {
       "id": "palette-pasuteru-karaa",
@@ -1115,7 +1115,7 @@
         "ゆめかわいい",
         "透明感"
       ],
-      "prompt_en": "A palette dominated by pastel colors—soft pinks, baby blues, mint greens, and light yellows—creating a sweet, airy, and calming atmosphere."
+      "prompt_en": "Use pastel color palette dominated by soft pinks, baby blues, mint greens, light yellows, and airy low-contrast sweetness."
     },
     {
       "id": "palette-kyandi-karaa",
@@ -1134,7 +1134,7 @@
         "高彩度",
         "アイドル風"
       ],
-      "prompt_en": "A candy-color palette uses brighter and sweeter saturated hues than pastels, often creating a playful idol, pop, or cute impression."
+      "prompt_en": "Use candy-color palette with brighter and sweeter saturated hues than pastels, creating playful idol energy, pop cuteness, and decorative cheer."
     },
     {
       "id": "palette-neon-karaa",
@@ -1153,7 +1153,7 @@
         "サイバーパンク",
         "リムライト"
       ],
-      "prompt_en": "A neon-color palette uses fluorescent-looking, highly saturated hues that pair well with night scenes, screens, cyberpunk, and rim lighting."
+      "prompt_en": "Use neon color palette with fluorescent-looking saturated hues suited to night scenes, screens, cyberpunk settings, rim lights, and electric contrast."
     },
     {
       "id": "palette-kusumi-karaa",
@@ -1172,7 +1172,7 @@
         "低彩度",
         "レトロポップ"
       ],
-      "prompt_en": "A muted grayish palette that feels soft, vintage, quiet, and sophisticated because the colors are deliberately desaturated."
+      "prompt_en": "Use muted grayish palette with deliberately desaturated colors, soft contrast, vintage quietness, subdued accents, and a sophisticated understated mood."
     },
     {
       "id": "palette-gentei-paretto",
@@ -1191,7 +1191,7 @@
         "ポスター風",
         "補色"
       ],
-      "prompt_en": "A limited palette restricts the image to a small set of main colors to create unity, identity, and poster-like clarity."
+      "prompt_en": "Use limited palette that restricts the image to a small set of main colors, creating unity, identity, poster clarity, and controlled contrast."
     },
     {
       "id": "palette-hoshoku",
@@ -1210,7 +1210,7 @@
         "限定パレット",
         "寒暖差"
       ],
-      "prompt_en": "A complementary color scheme uses opposite hues, such as blue and orange or red and green, to create strong contrast and tension."
+      "prompt_en": "Use complementary colors with opposite hues such as blue and orange or red and green to create strong contrast, tension, and visual snap."
     },
     {
       "id": "palette-ruijishoku",
@@ -1229,7 +1229,7 @@
         "パステルカラー",
         "透明感"
       ],
-      "prompt_en": "An analogous color scheme uses neighboring hues, such as blue-violet or yellow-orange, to create harmony and visual unity."
+      "prompt_en": "Use analogous colors with neighboring hues such as blue-violet or yellow-orange to create harmony, smooth transitions, and visual unity."
     },
     {
       "id": "palette-kandansa",
@@ -1248,7 +1248,7 @@
         "環境光",
         "補色"
       ],
-      "prompt_en": "Warm-cool contrast uses temperature differences in color to define lighting, space, atmosphere, and emotional contrast."
+      "prompt_en": "Use warm-cool contrast to define lighting, space, atmosphere, emotional contrast, foreground-background separation, and the perceived temperature of the scene."
     },
     {
       "id": "texture-kuuki-kan",
@@ -1267,7 +1267,7 @@
         "被写界深度",
         "透明感"
       ],
-      "prompt_en": "A strong sense of atmosphere and spatial depth; the artwork feels filled with light and air, as if you can sense the temperature, mood, and breath of the scene."
+      "prompt_en": "Use strong sense of atmosphere and spatial depth, filling the artwork with light, air, temperature, mood, and breathable distance between forms."
     },
     {
       "id": "texture-toumeikan",
@@ -1286,7 +1286,7 @@
         "透明感塗り",
         "サブサーフェス・スキャタリング"
       ],
-      "prompt_en": "A clean translucent impression where shadows stay clear, skin and hair feel luminous, and the image avoids muddy or heavy color."
+      "prompt_en": "Use clean translucent impression where shadows stay clear, skin and hair feel luminous, edges remain fresh, and colors avoid muddiness or heaviness."
     },
     {
       "id": "texture-ryuushi-kan",
@@ -1305,7 +1305,7 @@
         "フィルム感",
         "スクリーントーン"
       ],
-      "prompt_en": "A subtle grain or noise texture that reduces digital smoothness and adds a printed, filmic, or tactile surface quality."
+      "prompt_en": "Use subtle grain or noise texture to reduce digital smoothness and add a printed, filmic, tactile, or lightly analog surface quality."
     },
     {
       "id": "texture-kami-no-shitsukan",
@@ -1324,7 +1324,7 @@
         "水彩塗り",
         "低彩度"
       ],
-      "prompt_en": "A paper-texture effect that simulates watercolor paper, sketch paper, or aged paper for a traditional hand-made feeling."
+      "prompt_en": "Use paper texture that suggests watercolor paper, sketch paper, or aged paper, adding fibers, tooth, and a traditional hand-made feeling."
     },
     {
       "id": "texture-sofuto-fookasu",
@@ -1343,7 +1343,7 @@
         "空気感",
         "ブルーム"
       ],
-      "prompt_en": "A soft-focus treatment slightly blurs edges or details to create a dreamy, gentle, romantic, or emotionally softened look."
+      "prompt_en": "Use soft focus that slightly blurs edges or fine details to create a dreamy, gentle, romantic, or emotionally softened look."
     },
     {
       "id": "texture-buruumu",
@@ -1362,7 +1362,7 @@
         "逆光",
         "ネオンカラー"
       ],
-      "prompt_en": "A bloom effect makes bright areas spill outward as a glow, often used for backlight, magic, stage lighting, or neon night scenes."
+      "prompt_en": "Use bloom so bright areas spill outward as a soft glow, supporting backlight, magic, stage lighting, neon nights, or luminous highlights."
     },
     {
       "id": "texture-iro-shuusa",
@@ -1381,7 +1381,7 @@
         "サイバーパンク",
         "ネオンカラー"
       ],
-      "prompt_en": "Chromatic aberration adds slight red-blue edge separation to create a lens-like, digital, cyber, or modern post-processed feel."
+      "prompt_en": "Use chromatic aberration with slight red-blue edge separation to create a lens-like, digital, cyber, or modern post-processed feel."
     },
     {
       "id": "texture-hishakai-shindo",
@@ -1400,7 +1400,7 @@
         "空気感",
         "レンズフレア"
       ],
-      "prompt_en": "Depth of field blurs the foreground or background so the viewer’s attention focuses on the face, eyes, hands, or main subject."
+      "prompt_en": "Use depth of field to blur the foreground or background so attention focuses on the face, eyes, hands, or main subject."
     },
     {
       "id": "texture-renzu-furea",
@@ -1419,7 +1419,7 @@
         "逆光",
         "ブルーム"
       ],
-      "prompt_en": "Lens flare is a camera-like light artifact caused by strong light sources, often used to add cinematic brightness or atmosphere."
+      "prompt_en": "Use lens flare as a camera-like light artifact from strong light sources, adding cinematic brightness, atmosphere, and directional sparkle."
     },
     {
       "id": "texture-sukuriin-toon",
@@ -1438,7 +1438,7 @@
         "粒子感",
         "レトロポップ"
       ],
-      "prompt_en": "Screentone uses dots, halftones, or printed textures to evoke manga shading, printing, retro graphics, or comic-style surfaces."
+      "prompt_en": "Use screentone with dots, halftones, or printed textures to evoke manga shading, print processes, retro graphics, or comic-style surfaces."
     },
     {
       "id": "texture-firumu-kan",
@@ -1457,7 +1457,7 @@
         "粒子感",
         "低彩度"
       ],
-      "prompt_en": "A film-like treatment using grain, softer contrast, muted color, or slight imperfection to create a nostalgic cinematic mood."
+      "prompt_en": "Use film-like treatment with grain, softer contrast, muted color, slight imperfection, gentle halation, and nostalgic cinematic atmosphere across the image."
     },
     {
       "id": "context-tachie",
@@ -1476,7 +1476,7 @@
         "高頭身",
         "清書線"
       ],
-      "prompt_en": "A standing character illustration that prioritizes silhouette readability, costume design, pose clarity, and character presentation."
+      "prompt_en": "Use standing character illustration presentation that prioritizes silhouette readability, costume design, pose clarity, clean full-body structure, and character identity."
     },
     {
       "id": "context-setteiga",
@@ -1495,7 +1495,7 @@
         "平塗り",
         "ラフ線"
       ],
-      "prompt_en": "A design sheet or concept reference that explains character, costume, props, or world-building information with structural clarity."
+      "prompt_en": "Use design sheet or concept reference presentation that explains character, costume, props, or world-building information with clean structural clarity."
     },
     {
       "id": "context-sanmenzu",
@@ -1514,7 +1514,7 @@
         "設定画",
         "Live2D用立ち絵"
       ],
-      "prompt_en": "A three-view reference showing the front, side, and back of a character or object for modeling, animation, Live2D, or production consistency."
+      "prompt_en": "Use three-view reference presentation showing the front, side, and back of a character or object for modeling, animation, Live2D, or production consistency."
     },
     {
       "id": "context-kaado-irasuto",
@@ -1533,7 +1533,7 @@
         "ソーシャルゲーム風",
         "厚塗り"
       ],
-      "prompt_en": "A card illustration for mobile games, trading cards, or gacha systems, usually featuring dramatic composition, effects, and high rendering polish."
+      "prompt_en": "Use card illustration composition for mobile games, trading cards, or gacha systems, emphasizing dramatic framing, effects, polish, and collectible impact."
     },
     {
       "id": "context-raito-noberu-hyoushi",
@@ -1552,7 +1552,7 @@
         "美少女系",
         "透明感塗り"
       ],
-      "prompt_en": "A light-novel cover style that highlights character appeal, clean colors, readable title space, and instant genre recognition."
+      "prompt_en": "Use light-novel cover styling that highlights character appeal, clean colors, readable title space, strong silhouette, and instant genre recognition."
     },
     {
       "id": "context-ibento-cg",
@@ -1571,7 +1571,7 @@
         "ギャルゲ塗り",
         "ソフトフォーカス"
       ],
-      "prompt_en": "A visual-novel event CG depicts a narrative moment with emphasis on scene context, character expression, and emotional timing."
+      "prompt_en": "Use visual-novel event CG presentation that depicts a narrative moment with scene context, character expression, emotional timing, and cinematic framing."
     },
     {
       "id": "context-live2d-you-tachie",
@@ -1590,7 +1590,7 @@
         "清書線",
         "立ち絵"
       ],
-      "prompt_en": "A Live2D-ready standing illustration designed with clean parts, readable contours, and separable components for rigging and animation."
+      "prompt_en": "Use Live2D-ready standing illustration design with clean parts, readable contours, separable hair and clothing components, and rigging-friendly structure."
     },
     {
       "id": "context-doujinshi-hyoushi",
@@ -1609,7 +1609,7 @@
         "ライトノベル表紙",
         "ポスター風"
       ],
-      "prompt_en": "A doujinshi-cover style that balances title placement, character relationships, emotional tone, and strong cover readability."
+      "prompt_en": "Use doujinshi cover styling that balances title placement, character relationships, emotional tone, readable composition, and strong cover impact."
     },
     {
       "id": "context-anime-no-wan-shiin-fuu",
@@ -1628,7 +1628,7 @@
         "アニメ塗り",
         "被写界深度"
       ],
-      "prompt_en": "An anime-screenshot-like style that makes the image feel like one frame from an animated scene, with unified background, simple shadows, and camera-like composition."
+      "prompt_en": "Use anime-screenshot-like styling so the image feels like one frame from an animated scene, with unified background, simple shadows, and camera-like composition."
     },
     {
       "id": "context-soosharu-geemu-fuu",
@@ -1647,7 +1647,7 @@
         "カードイラスト",
         "2.5D風"
       ],
-      "prompt_en": "A social-game promotional style with high polish, strong contrast, elaborate costume details, and dramatic light effects."
+      "prompt_en": "Use social-game promotional styling with high polish, strong contrast, elaborate costume details, dramatic light effects, and a collectible promotional finish."
     },
     {
       "id": "mood-seiryoukan",
@@ -1666,7 +1666,7 @@
         "高明度",
         "空気感"
       ],
-      "prompt_en": "A fresh and cool visual mood built from bright values, low contrast, clean air, blue skies, and a light healing atmosphere."
+      "prompt_en": "Use fresh and cool visual mood built from bright values, low contrast, clean air, blue skies, light shadows, and a healing atmosphere."
     },
     {
       "id": "mood-yumekawaii",
@@ -1685,7 +1685,7 @@
         "パステルカラー",
         "キャンディカラー"
       ],
-      "prompt_en": "A dreamy, cute aesthetic that blends ethereal, fantasy-like elements with adorable charm, often using soft glows, floating motifs, and a slightly surreal, gentle sweetness."
+      "prompt_en": "Use dreamy cute aesthetic that blends ethereal fantasy-like elements with adorable charm, soft glows, floating motifs, and surreal gentle sweetness."
     },
     {
       "id": "mood-yamikawaii",
@@ -1704,7 +1704,7 @@
         "三白眼",
         "低明度"
       ],
-      "prompt_en": "A dark-cute aesthetic that combines adorable character design with gloomy, dangerous, sickly, or unsettling visual motifs."
+      "prompt_en": "Use dark-cute aesthetic that combines adorable character design with gloomy, dangerous, sickly, unsettling motifs and sweet but uneasy contrast."
     },
     {
       "id": "mood-saibaa-panku",
@@ -1723,7 +1723,7 @@
         "ネオンカラー",
         "色収差"
       ],
-      "prompt_en": "A cyberpunk aesthetic built from neon lights, night cities, screens, mechanical elements, chromatic aberration, and strong rim lighting."
+      "prompt_en": "Use cyberpunk aesthetic built from neon lights, night cities, screens, mechanical elements, chromatic aberration, and strong rim lighting."
     },
     {
       "id": "mood-wafuu-fantajii",
@@ -1742,7 +1742,7 @@
         "限定パレット",
         "カードイラスト"
       ],
-      "prompt_en": "A Japanese-fantasy style combining kimono, torii gates, cherry blossoms, goldfish, youkai, traditional patterns, and magical elements."
+      "prompt_en": "Use Japanese-fantasy styling with kimono, torii gates, cherry blossoms, goldfish, youkai, traditional patterns, and magical atmosphere when appropriate."
     },
     {
       "id": "mood-goshikku",
@@ -1761,7 +1761,7 @@
         "低明度",
         "病みかわいい"
       ],
-      "prompt_en": "A gothic style using dark palettes, lace, roses, crosses, candles, old architecture, and elegant dramatic contrast."
+      "prompt_en": "Use gothic styling with dark palettes, lace, roses, crosses, candles, old architecture, elegant silhouettes, ornamental detail, and dramatic contrast."
     },
     {
       "id": "mood-suchiimu-panku",
@@ -1780,7 +1780,7 @@
         "くすみカラー",
         "カードイラスト"
       ],
-      "prompt_en": "A steampunk style mixing gears, brass tones, leather, mechanical forms, retro industry, and Victorian-inspired design."
+      "prompt_en": "Use steampunk styling that mixes gears, brass tones, leather, mechanical forms, retro industry, Victorian-inspired design, and warm metallic detail."
     },
     {
       "id": "mood-seishun-mono",
@@ -1799,7 +1799,7 @@
         "清涼感",
         "逆光"
       ],
-      "prompt_en": "A youth-story aesthetic with school uniforms, blue skies, windows, backlighting, daily-life settings, and clear emotional nostalgia."
+      "prompt_en": "Use youth-story aesthetic with school uniforms, blue skies, windows, backlighting, daily-life settings, clear emotions, and nostalgic brightness in the scene."
     },
     {
       "id": "mood-aidoru-fuu",
@@ -1818,7 +1818,7 @@
         "キャンディカラー",
         "高頭身"
       ],
-      "prompt_en": "An idol-like style using stage lights, saturated colors, sparkle effects, smiles, dynamic poses, and decorative performance costumes."
+      "prompt_en": "Use idol-like styling with stage lights, saturated colors, sparkle effects, smiles, dynamic poses, decorative costumes, and performance energy."
     },
     {
       "id": "mood-daaku-fantajii",
@@ -1837,7 +1837,7 @@
         "厚塗り",
         "ゴシック"
       ],
-      "prompt_en": "A dark-fantasy style with low values, strong contrast, monsters, magic, metal, and heavy shadow-driven storytelling."
+      "prompt_en": "Use dark-fantasy styling with low values, strong contrast, monsters, magic, metal, heavy shadows, ominous atmosphere, and shadow-driven storytelling."
     },
     {
       "id": "mood-retoro-poppu",
@@ -1856,7 +1856,7 @@
         "スクリーントーン",
         "くすみカラー"
       ],
-      "prompt_en": "A retro-pop style inspired by old advertisements, halftone print textures, limited palettes, warm gray colors, and geometric decoration."
+      "prompt_en": "Use retro-pop styling inspired by old advertisements, halftone print textures, limited palettes, warm gray colors, bold shapes, and geometric decoration."
     }
   ]
 }

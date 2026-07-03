@@ -20,6 +20,8 @@ Inputs:
 - `style_selection`: saved selected style IDs. In the ComfyUI frontend this is rendered as grouped checkboxes.
 - `translate_prompts`: when enabled, translates the user prompts to English through the connected CLIP-LLM before encoding.
 - `translation_max_length`: max CLIP-LLM generation length, capped at `1024`.
+- `refine_prompt`: when enabled, expands and polishes the positive prompt through the connected CLIP-LLM before appending styles.
+- `refinement_max_length`: max CLIP-LLM generation length for positive prompt refinement, capped at `1024`.
 
 Outputs:
 
@@ -29,7 +31,7 @@ Outputs:
 ### Krea2 Anime Style Prompt Text
 
 Same prompt processing and style selector, but it returns strings instead of encoded conditioning.
-The `clip` input is optional and is only required when `translate_prompts` is enabled.
+The `clip` input is optional and is only required when `translate_prompts` or `refine_prompt` is enabled.
 This is intended for subgraphs or any workflow that wants to pass the processed prompt text into another node.
 
 Outputs:

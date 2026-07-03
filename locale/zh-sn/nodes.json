@@ -26,6 +26,14 @@
         "translation_max_length": {
           "label": "翻译最大长度",
           "tooltip": "每次 CLIP-LLM 翻译生成的最大长度，最高 1024。"
+        },
+        "refine_prompt": {
+          "label": "细化提示词",
+          "tooltip": "开启后使用连接的 CLIP-LLM 细化正向提示词，再追加所选风格。"
+        },
+        "refinement_max_length": {
+          "label": "细化最大长度",
+          "tooltip": "CLIP-LLM 细化正向提示词时的最大生成长度，最高 1024。"
         }
       },
       "outputs": {
@@ -60,6 +68,14 @@
         "translation_max_length": {
           "label": "翻译最大长度",
           "tooltip": "每次 CLIP-LLM 翻译生成的最大长度，最高 1024。"
+        },
+        "refine_prompt": {
+          "label": "细化提示词",
+          "tooltip": "开启后使用可选连接的 CLIP-LLM 细化正向提示词，再追加所选风格。"
+        },
+        "refinement_max_length": {
+          "label": "细化最大长度",
+          "tooltip": "CLIP-LLM 细化正向提示词时的最大生成长度，最高 1024。"
         },
         "clip": {
           "label": "CLIP",

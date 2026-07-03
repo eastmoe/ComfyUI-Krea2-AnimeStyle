@@ -10,6 +10,30 @@ ROOT = Path(__file__).resolve().parent
 CATEGORY = "eastmoe/Comfy-Krea2-AnimeStyle"
 STYLE_DATA_PATH = ROOT / "data" / "styles.json"
 TRANSLATION_INPUT_LIMIT = 1024
+REFINEMENT_INPUT_LIMIT = 1024
+
+REFINE_SYSTEM_PROMPT = """You are an expert prompt engineer for text-to-image models. Your task is to expand the user's prompt into a highly effective image-generation prompt.
+
+Think step by step about the request before writing the answer:
+- What is the subject and mood?
+- What visual styles, mediums, and lighting options would fit? Consider two or three alternatives and pick the one that best serves the caption.
+- What composition, framing, and grounded details will help the text-to-image model?
+
+Then output a single expanded prompt paragraph.
+
+Follow these rules strictly:
+1. **Faithfulness First:** Preserve all original subjects, actions, colors, and spatial relationships. Do not add new objects, props, characters, or animals unless the user clearly implies them.
+2. **Practical T2I Structure:** Write a prompt that a text-to-image model can parse cleanly. Group subjects with their own attributes and actions. Use grounded phrasing for poses, interactions, and spatial layout.
+3. **Style Planning Stays Internal:** Use your internal reasoning to choose style, medium, framing, and lighting. Do not emit planning tags or wrappers in the visible answer body.
+4. **Text Rendering:** If the user requests visible text, quotes, labels, or typography, specify the exact text clearly and wrap requested words in quotes.
+5. **Avoid Over-Specification:** Do not invent highly specific clothing, colors, materials, or scene details unless the input supports them.
+6. **Structure:** Write one cohesive paragraph after the thinking block. No bullets, JSON, or markdown.
+7. **Respect Existing Detail:** If the user's prompt is already detailed, lightly polish and finalize rather than heavily expanding -- preserve their phrasing and direction.
+
+8. **Preserve User Medium:** When the user explicitly requests a medium (e.g. "photo of", "photograph of", "illustration of", "painting of", "sketch of", "3D render of"), honor it. Do not pivot to a different medium to avoid difficulty -- match the user's stated intent.
+
+User's Input:
+"""
 
 
 def _load_style_data() -> dict[str, Any]:
@@ -79,9 +103,9 @@ def _clip_tokenize_for_generation(clip, prompt: str):
 def _clip_generate_text(clip, prompt: str, max_length: int) -> str:
     if not hasattr(clip, "generate") or not hasattr(clip, "decode"):
         raise RuntimeError(
-            "translate_prompts is enabled, but the connected CLIP does not expose "
-            "CLIP-LLM generate/decode methods. Use a text-generation capable CLIP "
-            "model, or turn translate_prompts off."
+            "A CLIP-LLM feature is enabled, but the connected CLIP does not expose "
+            "generate/decode methods. Use a text-generation capable CLIP model, "
+            "or turn translate_prompts/refine_prompt off."
         )
 
     tokens = _clip_tokenize_for_generation(clip, prompt)
@@ -115,6 +139,16 @@ def _translate_prompt(clip, text: str, max_length: int, label: str) -> str:
     return _clip_generate_text(clip, prompt, max_length) or source
 
 
+def _refine_prompt(clip, text: str, max_length: int) -> str:
+    text = (text or "").strip()
+    if not text:
+        return ""
+
+    source = text[:REFINEMENT_INPUT_LIMIT]
+    prompt = f"{REFINE_SYSTEM_PROMPT}\n{source}"
+    return _clip_generate_text(clip, prompt, max_length) or source
+
+
 def _encode_conditioning(clip, text: str):
     if clip is None:
         raise RuntimeError(
@@ -134,15 +168,22 @@ def _process_prompt_texts(
     style_selection: str,
     translate_prompts: bool,
     translation_max_length: int,
+    refine_prompt: bool,
+    refinement_max_length: int,
 ) -> tuple[str, str]:
     positive = positive_text or ""
     negative = negative_text or ""
 
-    if translate_prompts:
+    if translate_prompts or refine_prompt:
         if clip is None:
-            raise RuntimeError("translate_prompts is enabled, but no CLIP-LLM input is connected.")
+            raise RuntimeError("A CLIP-LLM input is required when translate_prompts or refine_prompt is enabled.")
+
+    if translate_prompts:
         positive = _translate_prompt(clip, positive, translation_max_length, "Positive")
         negative = _translate_prompt(clip, negative, translation_max_length, "Negative")
+
+    if refine_prompt:
+        positive = _refine_prompt(clip, positive, refinement_max_length)
 
     style_prompts = [item["prompt_en"] for item in _selected_style_items(style_selection)]
     return _join_prompt([positive, *style_prompts]), negative
@@ -198,6 +239,23 @@ class Krea2AnimeStyleCLIPTextEncode:
                         "tooltip": "Maximum CLIP-LLM generation length for each translation request.",
                     },
                 ),
+                "refine_prompt": (
+                    "BOOLEAN",
+                    {
+                        "default": False,
+                        "tooltip": "Expand and polish the positive prompt with the connected CLIP-LLM before appending selected styles.",
+                    },
+                ),
+                "refinement_max_length": (
+                    "INT",
+                    {
+                        "default": 1024,
+                        "min": 1,
+                        "max": 1024,
+                        "step": 1,
+                        "tooltip": "Maximum CLIP-LLM generation length for the positive prompt refinement request.",
+                    },
+                ),
             }
         }
 
@@ -220,6 +278,8 @@ class Krea2AnimeStyleCLIPTextEncode:
         style_selection: str,
         translate_prompts: bool,
         translation_max_length: int,
+        refine_prompt: bool,
+        refinement_max_length: int,
     ):
         positive_with_styles, negative = _process_prompt_texts(
             clip,
@@ -228,6 +288,8 @@ class Krea2AnimeStyleCLIPTextEncode:
             style_selection,
             translate_prompts,
             translation_max_length,
+            refine_prompt,
+            refinement_max_length,
         )
         return (
             _encode_conditioning(clip, positive_with_styles),
@@ -284,6 +346,23 @@ class Krea2AnimeStylePromptText:
                         "tooltip": "Maximum CLIP-LLM generation length for each translation request.",
                     },
                 ),
+                "refine_prompt": (
+                    "BOOLEAN",
+                    {
+                        "default": False,
+                        "tooltip": "Expand and polish the positive prompt with the optional CLIP-LLM before appending selected styles.",
+                    },
+                ),
+                "refinement_max_length": (
+                    "INT",
+                    {
+                        "default": 1024,
+                        "min": 1,
+                        "max": 1024,
+                        "step": 1,
+                        "tooltip": "Maximum CLIP-LLM generation length for the positive prompt refinement request.",
+                    },
+                ),
             },
             "optional": {
                 "clip": (
@@ -313,6 +392,8 @@ class Krea2AnimeStylePromptText:
         style_selection: str,
         translate_prompts: bool,
         translation_max_length: int,
+        refine_prompt: bool,
+        refinement_max_length: int,
         clip=None,
     ):
         return _process_prompt_texts(
@@ -322,6 +403,8 @@ class Krea2AnimeStylePromptText:
             style_selection,
             translate_prompts,
             translation_max_length,
+            refine_prompt,
+            refinement_max_length,
         )
 
 
